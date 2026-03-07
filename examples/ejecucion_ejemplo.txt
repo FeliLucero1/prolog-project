@@ -1,0 +1,234 @@
+================================================================================
+EJEMPLOS DE EJECUCIÓN - SISTEMA DE COMPRA DE JUGADORES
+================================================================================
+
+Para ejecutar estos ejemplos, carga el sistema en SWI-Prolog:
+
+    swipl
+    ?- [src/sistema_compras].
+
+================================================================================
+EJEMPLO 1: Verificar si un equipo puede firmar a un jugador
+================================================================================
+
+?- puede_firmar('Real Madrid', 'Kylian Mbappé').
+false.
+
+?- puede_firmar('Real Madrid', 'Robert Lewandowski').
+true.
+
+?- puede_firmar('Barcelona', 'Erling Haaland').
+true.
+
+?- puede_firmar('Barcelona', 'Kylian Mbappé').
+false.
+
+Explicación: Mbappé y Haaland exceden el presupuesto disponible.
+
+================================================================================
+EJEMPLO 2: Obtener recomendaciones para un equipo
+================================================================================
+
+?- recomendar('Barcelona', Jugador).
+Jugador = 'Erling Haaland' ;
+Jugador = 'Bukayo Saka' ;
+Jugador = 'Robert Lewandowski' ;
+Jugador = 'Karim Benzema' ;
+Jugador = 'Cristiano Ronaldo' ;
+Jugador = 'Rúben Dias' ;
+Jugador = 'Marquinhos' ;
+Jugador = 'Alessandro Bastoni' ;
+Jugador = 'Ronald Araújo' ;
+Jugador = 'David Alaba' ;
+Jugador = 'Theo Hernández' ;
+Jugador = 'Sergio Ramos' ;
+false.
+
+Explicación: El sistema ordena jugadores por rendimiento (goles + asistencias)
+que pueden ser firmados por Barcelona. Barcelona necesita delantero y defensa,
+y tiene presupuesto de 150M. Mbappé (180M) excede el presupuesto.
+
+================================================================================
+EJEMPLO 3: Encontrar el mejor fichaje
+================================================================================
+
+?- mejor_fichaje('Liverpool', Jugador).
+Jugador = 'Bukayo Saka'.
+
+?- mejor_fichaje('Real Madrid', Jugador).
+Jugador = 'Erling Haaland'.
+
+Explicación: Encuentra el jugador con mayor rendimiento que puede ser firmado.
+
+================================================================================
+EJEMPLO 4: Listar todos los jugadores disponibles
+================================================================================
+
+?- jugadores_disponibles('Manchester City', Lista).
+Lista = ['Kevin De Bruyne', 'Bruno Fernandes', 'Pedri', 'Jude Bellingham', 
+         'Federico Valverde', 'Rodri', 'Gavi', 'Eduardo Camavinga', 
+         'Jamal Musiala', 'Rúben Dias', 'Marquinhos', 'Alessandro Bastoni', 
+         'Ronald Araújo', 'Theo Hernández', 'David Alaba', 'Sergio Ramos'].
+
+Explicación: Manchester City necesita mediocampista y defensa (no delanteros),
+y tiene presupuesto de 300M. Solo aparecen jugadores de las posiciones necesitadas.
+
+================================================================================
+EJEMPLO 5: Filtrar por posición
+================================================================================
+
+?- jugadores_por_posicion('Real Madrid', delantero, Lista).
+Lista = ['Robert Lewandowski', 'Karim Benzema', 'Cristiano Ronaldo'].
+
+?- jugadores_por_posicion('Real Madrid', mediocampista, Lista).
+Lista = ['Kevin De Bruyne', 'Bruno Fernandes', 'Pedri', 'Jude Bellingham', 
+         'Federico Valverde', 'Rodri', 'Toni Kroos', 'Gavi', 'Eduardo Camavinga', 
+         'Jamal Musiala'].
+
+================================================================================
+EJEMPLO 6: Filtrar por rango de edad
+================================================================================
+
+?- jugadores_por_edad('Barcelona', 20, 30, Lista).
+Lista = ['Erling Haaland', 'Pedri', 'Jude Bellingham', 'Federico Valverde', 
+         'Rodri', 'Alessandro Bastoni', 'Ronald Araújo', 'Theo Hernández', 
+         'Gianluigi Donnarumma', 'Gavi', 'Eduardo Camavinga', 'Jamal Musiala', 
+         'Bukayo Saka'].
+
+Nota: Esta lista incluye solo jugadores de las posiciones que Barcelona necesita
+(delantero y defensa), filtrados por edad y que caben en el presupuesto de 150M.
+
+================================================================================
+EJEMPLO 7: Encontrar combinación óptima
+================================================================================
+
+?- combinacion_optima('Real Madrid', Lista).
+Lista = ['Robert Lewandowski', 'Kevin De Bruyne'].
+
+Explicación: Esta combinación maximiza el rendimiento total (36 + 32 = 68)
+respetando el presupuesto de 200M. 
+Costo: 25 + 80 = 105M <= 200M ✓
+Rendimiento: (30+6) + (12+20) = 68 puntos
+
+Otras combinaciones válidas:
+
+?- combinacion_valida(['Robert Lewandowski', 'Pedri'], 'Real Madrid').
+true.
+% Costo: 25 + 100 = 125M <= 200M ✓
+% Rendimiento: 36 + 20 = 56 puntos
+
+?- combinacion_valida(['Erling Haaland', 'Pedri'], 'Real Madrid').
+false.
+% Costo: 150 + 100 = 250M > 200M ✗
+
+?- combinacion_valida(['Jude Bellingham', 'Ronald Araújo'], 'Real Madrid').
+false.
+% Real Madrid necesita delantero y mediocampista, pero esta combinación
+% solo tiene mediocampista (Bellingham) y defensa (Araújo) ✗
+
+================================================================================
+EJEMPLO 8: Verificar restricciones de extranjeros
+================================================================================
+
+?- es_extranjero('Kylian Mbappé', 'Real Madrid').
+true.
+
+?- es_nacional('Pedri', 'Barcelona').
+true.
+
+?- contar_extranjeros(['Erling Haaland', 'Pedri', 'Ronald Araújo'], 'Real Madrid', Cantidad).
+Cantidad = 2.
+
+Explicación: Haaland (noruega) y Araújo (uruguay) son extranjeros para Real Madrid.
+
+================================================================================
+EJEMPLO 9: Análisis de presupuesto
+================================================================================
+
+?- presupuesto_restante('Real Madrid', ['Robert Lewandowski'], Restante).
+Restante = 175.
+
+?- presupuesto_restante('Real Madrid', ['Robert Lewandowski', 'Pedri'], Restante).
+Restante = 75.
+
+?- costo_total(['Robert Lewandowski', 'Pedri'], Costo).
+Costo = 125.
+
+================================================================================
+EJEMPLO 10: Jugador más caro y más barato
+================================================================================
+
+?- jugador_mas_caro('Barcelona', Jugador).
+Jugador = 'Erling Haaland'.
+
+?- jugador_mas_barato('PSG', Jugador).
+Jugador = 'Sergio Ramos'.
+
+================================================================================
+EJEMPLO 11: Consultas complejas con múltiples condiciones
+================================================================================
+
+% Jugadores jóvenes con buen rendimiento
+?- jugador(Jugador, _, Edad, _, _, Goles, Asistencias),
+   Edad < 25,
+   Rendimiento is Goles + Asistencias,
+   Rendimiento > 15.
+Jugador = 'Erling Haaland',
+Edad = 24,
+Goles = 40,
+Asistencias = 8,
+Rendimiento = 48 ;
+Jugador = 'Bukayo Saka',
+Edad = 22,
+Goles = 18,
+Asistencias = 15,
+Rendimiento = 33 ;
+Jugador = 'Pedri',
+Edad = 21,
+Goles = 8,
+Asistencias = 12,
+Rendimiento = 20 ;
+Jugador = 'Jude Bellingham',
+Edad = 21,
+Goles = 10,
+Asistencias = 8,
+Rendimiento = 18 ;
+Jugador = 'Jamal Musiala',
+Edad = 21,
+Goles = 12,
+Asistencias = 8,
+Rendimiento = 20 ;
+...
+
+Explicación: Kylian Mbappé tiene 25 años, por lo que NO cumple Edad < 25.
+
+% Combinaciones de 2 jugadores para Real Madrid
+?- puede_firmar('Real Madrid', J1),
+   puede_firmar('Real Madrid', J2),
+   J1 \= J2,
+   combinacion_valida([J1, J2], 'Real Madrid').
+J1 = 'Robert Lewandowski',
+J2 = 'Kevin De Bruyne' ;
+J1 = 'Robert Lewandowski',
+J2 = 'Pedri' ;
+J1 = 'Robert Lewandowski',
+J2 = 'Jude Bellingham' ;
+J1 = 'Robert Lewandowski',
+J2 = 'Federico Valverde' ;
+J1 = 'Robert Lewandowski',
+J2 = 'Rodri' ;
+J1 = 'Robert Lewandowski',
+J2 = 'Toni Kroos' ;
+J1 = 'Karim Benzema',
+J2 = 'Kevin De Bruyne' ;
+J1 = 'Karim Benzema',
+J2 = 'Pedri' ;
+...
+
+Nota: Real Madrid necesita delantero Y mediocampista, así que las combinaciones
+válidas deben incluir al menos un jugador de cada posición.
+
+================================================================================
+FIN DE EJEMPLOS
+================================================================================
+

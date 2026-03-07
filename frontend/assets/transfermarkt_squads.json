@@ -1,0 +1,3741 @@
+{
+  "Real Madrid": [
+    {
+      "team": "Real Madrid",
+      "player_id": "108390",
+      "name": "Thibaut Courtois",
+      "name_key": "thibautcourtois",
+      "profile_url": "https://www.transfermarkt.com/thibaut-courtois/profil/spieler/108390",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/108390-1717280733.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-108390.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "404839",
+      "name": "Andriy Lunin",
+      "name_key": "andriylunin",
+      "profile_url": "https://www.transfermarkt.com/andriy-lunin/profil/spieler/404839",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/404839-1701294131.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-404839.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "1055220",
+      "name": "Fran González",
+      "name_key": "frangonzalez",
+      "profile_url": "https://www.transfermarkt.com/fran-gonzalez/profil/spieler/1055220",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1055220-1704358404.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1055220.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "890290",
+      "name": "Dean Huijsen",
+      "name_key": "deanhuijsen",
+      "profile_url": "https://www.transfermarkt.com/dean-huijsen/profil/spieler/890290",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/890290-1750251451.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-890290.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "935245",
+      "name": "Raúl Asencio",
+      "name_key": "raulasencio",
+      "profile_url": "https://www.transfermarkt.com/raul-asencio/profil/spieler/935245",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/935245-1731168094.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-935245.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "86202",
+      "name": "Antonio Rüdiger",
+      "name_key": "antoniorudiger",
+      "profile_url": "https://www.transfermarkt.com/antonio-rudiger/profil/spieler/86202",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/86202-1684484602.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-86202.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "811778",
+      "name": "Álvaro Carreras",
+      "name_key": "alvarocarreras",
+      "profile_url": "https://www.transfermarkt.com/alvaro-carreras/profil/spieler/811778",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/811778-1737497415.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-811778.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "341264",
+      "name": "Fran García",
+      "name_key": "frangarcia",
+      "profile_url": "https://www.transfermarkt.com/fran-garcia/profil/spieler/341264",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/341264-1688119965.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-341264.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "291417",
+      "name": "Ferland Mendy",
+      "name_key": "ferlandmendy",
+      "profile_url": "https://www.transfermarkt.com/ferland-mendy/profil/spieler/291417",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/291417-1701294025.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-291417.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "314353",
+      "name": "Trent Alexander-Arnold",
+      "name_key": "trentalexanderarnold",
+      "profile_url": "https://www.transfermarkt.com/trent-alexander-arnold/profil/spieler/314353",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/314353-1701680958.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-314353.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "413112",
+      "name": "Aurélien Tchouaméni",
+      "name_key": "aurelientchouameni",
+      "profile_url": "https://www.transfermarkt.com/aurelien-tchouameni/profil/spieler/413112",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/413112-1668500754.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-413112.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "369081",
+      "name": "Federico Valverde",
+      "name_key": "federicovalverde",
+      "profile_url": "https://www.transfermarkt.com/federico-valverde/profil/spieler/369081",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/369081-1731018042.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-369081.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "1186235",
+      "name": "Jorge Cestero",
+      "name_key": "jorgecestero",
+      "profile_url": "https://www.transfermarkt.com/jorge-cestero/profil/spieler/1186235",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1186235-1759738619.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1186235.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "861410",
+      "name": "Arda Güler",
+      "name_key": "ardaguler",
+      "profile_url": "https://www.transfermarkt.com/arda-guler/profil/spieler/861410",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/861410-1699472585.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-861410.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "371998",
+      "name": "Vinicius Junior",
+      "name_key": "viniciusjunior",
+      "profile_url": "https://www.transfermarkt.com/vinicius-junior/profil/spieler/371998",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/371998-1761575144.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-371998.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "314678",
+      "name": "Brahim Díaz",
+      "name_key": "brahimdiaz",
+      "profile_url": "https://www.transfermarkt.com/brahim-diaz/profil/spieler/314678",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/314678-1744193327.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-314678.jpg"
+    },
+    {
+      "team": "Real Madrid",
+      "player_id": "935230",
+      "name": "Gonzalo García",
+      "name_key": "gonzalogarcia",
+      "profile_url": "https://www.transfermarkt.com/gonzalo-garcia/profil/spieler/935230",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/935230-1765462047.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-935230.jpg"
+    }
+  ],
+  "Barcelona": [
+    {
+      "team": "Barcelona",
+      "player_id": "561613",
+      "name": "Joan García",
+      "name_key": "joangarcia",
+      "profile_url": "https://www.transfermarkt.com/joan-garcia/profil/spieler/561613",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/561613-1747386081.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-561613.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "44058",
+      "name": "Wojciech Szczęsny",
+      "name_key": "wojciechszczesny",
+      "profile_url": "https://www.transfermarkt.com/wojciech-szczesny/profil/spieler/44058",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/44058-1744278078.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-44058.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "938144",
+      "name": "Diego Kochen",
+      "name_key": "diegokochen",
+      "profile_url": "https://www.transfermarkt.com/diego-kochen/profil/spieler/938144",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/938144-1727891789.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-938144.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "962110",
+      "name": "Pau Cubarsí",
+      "name_key": "paucubarsi",
+      "profile_url": "https://www.transfermarkt.com/pau-cubarsi/profil/spieler/962110",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/962110-1712779232.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-962110.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "466794",
+      "name": "Eric García",
+      "name_key": "ericgarcia",
+      "profile_url": "https://www.transfermarkt.com/eric-garcia/profil/spieler/466794",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/466794-1693604801.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-466794.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "480267",
+      "name": "Ronald Araujo",
+      "name_key": "ronaldaraujo",
+      "profile_url": "https://www.transfermarkt.com/ronald-araujo/profil/spieler/480267",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/480267-1736431980.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-480267.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "705395",
+      "name": "Gerard Martín",
+      "name_key": "gerardmartin",
+      "profile_url": "https://www.transfermarkt.com/gerard-martin/profil/spieler/705395",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/705395-1730119053.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-705395.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "182712",
+      "name": "João Cancelo",
+      "name_key": "joaocancelo",
+      "profile_url": "https://www.transfermarkt.com/joao-cancelo/profil/spieler/182712",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/182712-1675080937.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-182712.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "636695",
+      "name": "Marc Casadó",
+      "name_key": "marccasado",
+      "profile_url": "https://www.transfermarkt.com/marc-casado/profil/spieler/636695",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/636695-1729771427.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-636695.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "1018920",
+      "name": "Marc Bernal",
+      "name_key": "marcbernal",
+      "profile_url": "https://www.transfermarkt.com/marc-bernal/profil/spieler/1018920",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1018920-1724052540.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1018920.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "683840",
+      "name": "Pedri",
+      "name_key": "pedri",
+      "profile_url": "https://www.transfermarkt.com/pedri/profil/spieler/683840",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/683840-1744278342.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-683840.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "636703",
+      "name": "Fermín López",
+      "name_key": "ferminlopez",
+      "profile_url": "https://www.transfermarkt.com/fermin-lopez/profil/spieler/636703",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/636703-1698086824.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-636703.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "293385",
+      "name": "Dani Olmo",
+      "name_key": "daniolmo",
+      "profile_url": "https://www.transfermarkt.com/dani-olmo/profil/spieler/293385",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/293385-1711546268.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-293385.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "411295",
+      "name": "Raphinha",
+      "name_key": "raphinha",
+      "profile_url": "https://www.transfermarkt.com/raphinha/profil/spieler/411295",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/411295-1729754479.png?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-411295.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "258923",
+      "name": "Marcus Rashford",
+      "name_key": "marcusrashford",
+      "profile_url": "https://www.transfermarkt.com/marcus-rashford/profil/spieler/258923",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/258923-1674473054.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-258923.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "937958",
+      "name": "Lamine Yamal",
+      "name_key": "lamineyamal",
+      "profile_url": "https://www.transfermarkt.com/lamine-yamal/profil/spieler/937958",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/937958-1746563945.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-937958.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "792331",
+      "name": "Roony Bardghji",
+      "name_key": "roonybardghji",
+      "profile_url": "https://www.transfermarkt.com/roony-bardghji/profil/spieler/792331",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/792331-1667420074.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-792331.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "398184",
+      "name": "Ferran Torres",
+      "name_key": "ferrantorres",
+      "profile_url": "https://www.transfermarkt.com/ferran-torres/profil/spieler/398184",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/398184-1699383547.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-398184.jpg"
+    },
+    {
+      "team": "Barcelona",
+      "player_id": "38253",
+      "name": "Robert Lewandowski",
+      "name_key": "robertlewandowski",
+      "profile_url": "https://www.transfermarkt.com/robert-lewandowski/profil/spieler/38253",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/38253-1760445524.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-38253.jpg"
+    }
+  ],
+  "Manchester City": [
+    {
+      "team": "Manchester City",
+      "player_id": "315858",
+      "name": "Gianluigi Donnarumma",
+      "name_key": "gianluigidonnarumma",
+      "profile_url": "https://www.transfermarkt.com/gianluigi-donnarumma/profil/spieler/315858",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/315858-1761076746.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-315858.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "566799",
+      "name": "James Trafford",
+      "name_key": "jamestrafford",
+      "profile_url": "https://www.transfermarkt.com/james-trafford/profil/spieler/566799",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/566799-1689876147.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-566799.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "116648",
+      "name": "Marcus Bettinelli",
+      "name_key": "marcusbettinelli",
+      "profile_url": "https://www.transfermarkt.com/marcus-bettinelli/profil/spieler/116648",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/116648-1700671752.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-116648.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "258004",
+      "name": "Rúben Dias",
+      "name_key": "rubendias",
+      "profile_url": "https://www.transfermarkt.com/ruben-dias/profil/spieler/258004",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/258004-1684921271.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-258004.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "392757",
+      "name": "Marc Guéhi",
+      "name_key": "marcguehi",
+      "profile_url": "https://www.transfermarkt.com/marc-guehi/profil/spieler/392757",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/392757-1683030598.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-392757.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "763079",
+      "name": "Abdukodir Khusanov",
+      "name_key": "abdukodirkhusanov",
+      "profile_url": "https://www.transfermarkt.com/abdukodir-khusanov/profil/spieler/763079",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/763079-1740493347.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-763079.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "186590",
+      "name": "John Stones",
+      "name_key": "johnstones",
+      "profile_url": "https://www.transfermarkt.com/john-stones/profil/spieler/186590",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/186590-1684764261.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-186590.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "177476",
+      "name": "Nathan Aké",
+      "name_key": "nathanake",
+      "profile_url": "https://www.transfermarkt.com/nathan-ake/profil/spieler/177476",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/177476-1666733797.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-177476.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "843595",
+      "name": "Max Alleyne",
+      "name_key": "maxalleyne",
+      "profile_url": "https://www.transfermarkt.com/max-alleyne/profil/spieler/843595",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/843595-1699384785.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-843595.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "578391",
+      "name": "Rayan Aït-Nouri",
+      "name_key": "rayanaitnouri",
+      "profile_url": "https://www.transfermarkt.com/rayan-ait-nouri/profil/spieler/578391",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/578391-1761076429.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-578391.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "743413",
+      "name": "Nico O'Reilly",
+      "name_key": "nicooreilly",
+      "profile_url": "https://www.transfermarkt.com/nico-oreilly/profil/spieler/743413",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/743413-1751367149.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-743413.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "601883",
+      "name": "Matheus Nunes",
+      "name_key": "matheusnunes",
+      "profile_url": "https://www.transfermarkt.com/matheus-nunes/profil/spieler/601883",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/601883-1761076097.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-601883.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "701057",
+      "name": "Rico Lewis",
+      "name_key": "ricolewis",
+      "profile_url": "https://www.transfermarkt.com/rico-lewis/profil/spieler/701057",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/701057-1684856684.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-701057.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "357565",
+      "name": "Rodri",
+      "name_key": "rodri",
+      "profile_url": "https://www.transfermarkt.com/rodri/profil/spieler/357565",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/357565-1682587890.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-357565.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "466805",
+      "name": "Nico González",
+      "name_key": "nicogonzalez",
+      "profile_url": "https://www.transfermarkt.com/nico-gonzalez/profil/spieler/466805",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/466805-1743669968.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-466805.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "460939",
+      "name": "Tijjani Reijnders",
+      "name_key": "tijjanireijnders",
+      "profile_url": "https://www.transfermarkt.com/tijjani-reijnders/profil/spieler/460939",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/460939-1676466080.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-460939.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "406635",
+      "name": "Phil Foden",
+      "name_key": "philfoden",
+      "profile_url": "https://www.transfermarkt.com/phil-foden/profil/spieler/406635",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/406635-1668524492.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-406635.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "607223",
+      "name": "Rayan Cherki",
+      "name_key": "rayancherki",
+      "profile_url": "https://www.transfermarkt.com/rayan-cherki/profil/spieler/607223",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/607223-1672831487.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-607223.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "486049",
+      "name": "Jérémy Doku",
+      "name_key": "jeremydoku",
+      "profile_url": "https://www.transfermarkt.com/jeremy-doku/profil/spieler/486049",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/486049-1743670159.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-486049.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "743591",
+      "name": "Savinho",
+      "name_key": "savinho",
+      "profile_url": "https://www.transfermarkt.com/savinho/profil/spieler/743591",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/743591-1751367497.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-743591.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "583255",
+      "name": "Antoine Semenyo",
+      "name_key": "antoinesemenyo",
+      "profile_url": "https://www.transfermarkt.com/antoine-semenyo/profil/spieler/583255",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/583255-1737452028.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-583255.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "418560",
+      "name": "Erling Haaland",
+      "name_key": "erlinghaaland",
+      "profile_url": "https://www.transfermarkt.com/erling-haaland/profil/spieler/418560",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/418560-1709108116.png?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-418560.jpg"
+    },
+    {
+      "team": "Manchester City",
+      "player_id": "445939",
+      "name": "Omar Marmoush",
+      "name_key": "omarmarmoush",
+      "profile_url": "https://www.transfermarkt.com/omar-marmoush/profil/spieler/445939",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/445939-1747656490.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-445939.jpg"
+    }
+  ],
+  "Bayern Munich": [
+    {
+      "team": "Bayern Munich",
+      "player_id": "607720",
+      "name": "Jonas Urbig",
+      "name_key": "jonasurbig",
+      "profile_url": "https://www.transfermarkt.com/jonas-urbig/profil/spieler/607720",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/607720-1737037032.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-607720.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "40680",
+      "name": "Sven Ulreich",
+      "name_key": "svenulreich",
+      "profile_url": "https://www.transfermarkt.com/sven-ulreich/profil/spieler/40680",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/40680-1700659982.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-40680.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "344695",
+      "name": "Dayot Upamecano",
+      "name_key": "dayotupamecano",
+      "profile_url": "https://www.transfermarkt.com/dayot-upamecano/profil/spieler/344695",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/344695-1701245272.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-344695.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "196357",
+      "name": "Jonathan Tah",
+      "name_key": "jonathantah",
+      "profile_url": "https://www.transfermarkt.com/jonathan-tah/profil/spieler/196357",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/196357-1695367765.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-196357.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "503482",
+      "name": "Min-jae Kim",
+      "name_key": "minjaekim",
+      "profile_url": "https://www.transfermarkt.com/min-jae-kim/profil/spieler/503482",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/503482-1700208062.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-503482.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "170986",
+      "name": "Raphaël Guerreiro",
+      "name_key": "raphaelguerreiro",
+      "profile_url": "https://www.transfermarkt.com/raphael-guerreiro/profil/spieler/170986",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/170986-1711745629.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-170986.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "223967",
+      "name": "Konrad Laimer",
+      "name_key": "konradlaimer",
+      "profile_url": "https://www.transfermarkt.com/konrad-laimer/profil/spieler/223967",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/223967-1700659266.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-223967.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "483046",
+      "name": "Josip Stanisic",
+      "name_key": "josipstanisic",
+      "profile_url": "https://www.transfermarkt.com/josip-stanisic/profil/spieler/483046",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/483046-1716966862.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-483046.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "792380",
+      "name": "Aleksandar Pavlovic",
+      "name_key": "aleksandarpavlovic",
+      "profile_url": "https://www.transfermarkt.com/aleksandar-pavlovic/profil/spieler/792380",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/792380-1727098078.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-792380.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "161056",
+      "name": "Joshua Kimmich",
+      "name_key": "joshuakimmich",
+      "profile_url": "https://www.transfermarkt.com/joshua-kimmich/profil/spieler/161056",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/161056-1700039639.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-161056.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "822959",
+      "name": "Tom Bischof",
+      "name_key": "tombischof",
+      "profile_url": "https://www.transfermarkt.com/tom-bischof/profil/spieler/822959",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/822959-1758269709.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-822959.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "153084",
+      "name": "Leon Goretzka",
+      "name_key": "leongoretzka",
+      "profile_url": "https://www.transfermarkt.com/leon-goretzka/profil/spieler/153084",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/153084-1700040179.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-153084.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "580195",
+      "name": "Jamal Musiala",
+      "name_key": "jamalmusiala",
+      "profile_url": "https://www.transfermarkt.com/jamal-musiala/profil/spieler/580195",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/580195-1711745441.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-580195.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "1075147",
+      "name": "Lennart Karl",
+      "name_key": "lennartkarl",
+      "profile_url": "https://www.transfermarkt.com/lennart-karl/profil/spieler/1075147",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1075147-1759417800.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1075147.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "480692",
+      "name": "Luis Díaz",
+      "name_key": "luisdiaz",
+      "profile_url": "https://www.transfermarkt.com/luis-diaz/profil/spieler/480692",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/480692-1757938077.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-480692.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "566723",
+      "name": "Michael Olise",
+      "name_key": "michaelolise",
+      "profile_url": "https://www.transfermarkt.com/michael-olise/profil/spieler/566723",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/566723-1762944477.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-566723.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "159471",
+      "name": "Serge Gnabry",
+      "name_key": "sergegnabry",
+      "profile_url": "https://www.transfermarkt.com/serge-gnabry/profil/spieler/159471",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/159471-1759909173.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-159471.jpg"
+    },
+    {
+      "team": "Bayern Munich",
+      "player_id": "776890",
+      "name": "Nicolas Jackson",
+      "name_key": "nicolasjackson",
+      "profile_url": "https://www.transfermarkt.com/nicolas-jackson/profil/spieler/776890",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/776890-1757939139.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-776890.jpg"
+    }
+  ],
+  "PSG": [
+    {
+      "team": "PSG",
+      "player_id": "463600",
+      "name": "Lucas Chevalier",
+      "name_key": "lucaschevalier",
+      "profile_url": "https://www.transfermarkt.com/lucas-chevalier/profil/spieler/463600",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/463600-1708342501.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-463600.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "318470",
+      "name": "Matvey Safonov",
+      "name_key": "matveysafonov",
+      "profile_url": "https://www.transfermarkt.com/matvey-safonov/profil/spieler/318470",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/318470-1732658603.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-318470.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "1041614",
+      "name": "Renato Marin",
+      "name_key": "renatomarin",
+      "profile_url": "https://www.transfermarkt.com/renato-marin/profil/spieler/1041614",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1041614-1730123074.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1041614.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "661171",
+      "name": "Willian Pacho",
+      "name_key": "willianpacho",
+      "profile_url": "https://www.transfermarkt.com/willian-pacho/profil/spieler/661171",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/661171-1696508666.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-661171.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "659089",
+      "name": "Ilya Zabarnyi",
+      "name_key": "ilyazabarnyi",
+      "profile_url": "https://www.transfermarkt.com/ilya-zabarnyi/profil/spieler/659089",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/659089-1760065378.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-659089.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "872171",
+      "name": "Lucas Beraldo",
+      "name_key": "lucasberaldo",
+      "profile_url": "https://www.transfermarkt.com/lucas-beraldo/profil/spieler/872171",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/872171-1715107660.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-872171.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "616341",
+      "name": "Nuno Mendes",
+      "name_key": "nunomendes",
+      "profile_url": "https://www.transfermarkt.com/nuno-mendes/profil/spieler/616341",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/616341-1749417164.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-616341.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "281963",
+      "name": "Lucas Hernández",
+      "name_key": "lucashernandez",
+      "profile_url": "https://www.transfermarkt.com/lucas-hernandez/profil/spieler/281963",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/281963-1667830435.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-281963.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "398073",
+      "name": "Achraf Hakimi",
+      "name_key": "achrafhakimi",
+      "profile_url": "https://www.transfermarkt.com/achraf-hakimi/profil/spieler/398073",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/398073-1672304327.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-398073.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "487469",
+      "name": "Vitinha",
+      "name_key": "vitinha",
+      "profile_url": "https://www.transfermarkt.com/vitinha/profil/spieler/487469",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/487469-1749415169.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-487469.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "810092",
+      "name": "Warren Zaïre-Emery",
+      "name_key": "warrenzaireemery",
+      "profile_url": "https://www.transfermarkt.com/warren-zaire-emery/profil/spieler/810092",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/810092-1672303575.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-810092.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "557149",
+      "name": "Kang-in Lee",
+      "name_key": "kanginlee",
+      "profile_url": "https://www.transfermarkt.com/kang-in-lee/profil/spieler/557149",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/557149-1703978046.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-557149.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "1071596",
+      "name": "Dro Fernández",
+      "name_key": "drofernandez",
+      "profile_url": "https://www.transfermarkt.com/dro-fernandez/profil/spieler/1071596",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1071596-1755508021.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1071596.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "502670",
+      "name": "Khvicha Kvaratskhelia",
+      "name_key": "khvichakvaratskhelia",
+      "profile_url": "https://www.transfermarkt.com/khvicha-kvaratskhelia/profil/spieler/502670",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/502670-1708553120.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-502670.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "708265",
+      "name": "Bradley Barcola",
+      "name_key": "bradleybarcola",
+      "profile_url": "https://www.transfermarkt.com/bradley-barcola/profil/spieler/708265",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/708265-1653406915.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-708265.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "914562",
+      "name": "Désiré Doué",
+      "name_key": "desiredoue",
+      "profile_url": "https://www.transfermarkt.com/desire-doue/profil/spieler/914562",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/914562-1667317075.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-914562.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "1185888",
+      "name": "Ibrahim Mbaye",
+      "name_key": "ibrahimmbaye",
+      "profile_url": "https://www.transfermarkt.com/ibrahim-mbaye/profil/spieler/1185888",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1185888-1759430450.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1185888.jpg"
+    },
+    {
+      "team": "PSG",
+      "player_id": "550550",
+      "name": "Gonçalo Ramos",
+      "name_key": "goncaloramos",
+      "profile_url": "https://www.transfermarkt.com/goncalo-ramos/profil/spieler/550550",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/550550-1681906158.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-550550.jpg"
+    }
+  ],
+  "Liverpool": [
+    {
+      "team": "Liverpool",
+      "player_id": "502676",
+      "name": "Giorgi Mamardashvili",
+      "name_key": "giorgimamardashvili",
+      "profile_url": "https://www.transfermarkt.com/giorgi-mamardashvili/profil/spieler/502676",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/502676-1716542116.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-502676.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "105470",
+      "name": "Alisson",
+      "name_key": "alisson",
+      "profile_url": "https://www.transfermarkt.com/alisson/profil/spieler/105470",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/105470-1668522221.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-105470.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "226049",
+      "name": "Freddie Woodman",
+      "name_key": "freddiewoodman",
+      "profile_url": "https://www.transfermarkt.com/freddie-woodman/profil/spieler/226049",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/226049-1737883837.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-226049.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "357119",
+      "name": "Ibrahima Konaté",
+      "name_key": "ibrahimakonate",
+      "profile_url": "https://www.transfermarkt.com/ibrahima-konate/profil/spieler/357119",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/357119-1669190550.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-357119.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "256178",
+      "name": "Joe Gomez",
+      "name_key": "joegomez",
+      "profile_url": "https://www.transfermarkt.com/joe-gomez/profil/spieler/256178",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/256178-1746645094.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-256178.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "730861",
+      "name": "Milos Kerkez",
+      "name_key": "miloskerkez",
+      "profile_url": "https://www.transfermarkt.com/milos-kerkez/profil/spieler/730861",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/730861-1660762995.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-730861.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "234803",
+      "name": "Andrew Robertson",
+      "name_key": "andrewrobertson",
+      "profile_url": "https://www.transfermarkt.com/andrew-robertson/profil/spieler/234803",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/234803-1709147379.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-234803.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "484547",
+      "name": "Jeremie Frimpong",
+      "name_key": "jeremiefrimpong",
+      "profile_url": "https://www.transfermarkt.com/jeremie-frimpong/profil/spieler/484547",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/484547-1689710682.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-484547.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "633652",
+      "name": "Calvin Ramsay",
+      "name_key": "calvinramsay",
+      "profile_url": "https://www.transfermarkt.com/calvin-ramsay/profil/spieler/633652",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/633652-1628698224.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-633652.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "478573",
+      "name": "Ryan Gravenberch",
+      "name_key": "ryangravenberch",
+      "profile_url": "https://www.transfermarkt.com/ryan-gravenberch/profil/spieler/478573",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/478573-1718097194.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-478573.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "534033",
+      "name": "Alexis Mac Allister",
+      "name_key": "alexismacallister",
+      "profile_url": "https://www.transfermarkt.com/alexis-mac-allister/profil/spieler/534033",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/534033-1669835342.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-534033.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "433188",
+      "name": "Curtis Jones",
+      "name_key": "curtisjones",
+      "profile_url": "https://www.transfermarkt.com/curtis-jones/profil/spieler/433188",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/433188-1701681163.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-433188.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "1045123",
+      "name": "Trey Nyoni",
+      "name_key": "treynyoni",
+      "profile_url": "https://www.transfermarkt.com/trey-nyoni/profil/spieler/1045123",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1045123-1708933240.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1045123.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "598577",
+      "name": "Florian Wirtz",
+      "name_key": "florianwirtz",
+      "profile_url": "https://www.transfermarkt.com/florian-wirtz/profil/spieler/598577",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/598577-1689710503.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-598577.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "451276",
+      "name": "Dominik Szoboszlai",
+      "name_key": "dominikszoboszlai",
+      "profile_url": "https://www.transfermarkt.com/dominik-szoboszlai/profil/spieler/451276",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/451276-1758715234.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-451276.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "434675",
+      "name": "Cody Gakpo",
+      "name_key": "codygakpo",
+      "profile_url": "https://www.transfermarkt.com/cody-gakpo/profil/spieler/434675",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/434675-1682690965.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-434675.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "1108466",
+      "name": "Rio Ngumoha",
+      "name_key": "riongumoha",
+      "profile_url": "https://www.transfermarkt.com/rio-ngumoha/profil/spieler/1108466",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1108466-1730834754.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1108466.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "148455",
+      "name": "Mohamed Salah",
+      "name_key": "mohamedsalah",
+      "profile_url": "https://www.transfermarkt.com/mohamed-salah/profil/spieler/148455",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/148455-1727337594.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-148455.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "341092",
+      "name": "Federico Chiesa",
+      "name_key": "federicochiesa",
+      "profile_url": "https://www.transfermarkt.com/federico-chiesa/profil/spieler/341092",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/341092-1663576975.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-341092.jpg"
+    },
+    {
+      "team": "Liverpool",
+      "player_id": "709726",
+      "name": "Hugo Ekitiké",
+      "name_key": "hugoekitike",
+      "profile_url": "https://www.transfermarkt.com/hugo-ekitike/profil/spieler/709726",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/709726-1758714741.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-709726.jpg"
+    }
+  ],
+  "Arsenal": [
+    {
+      "team": "Arsenal",
+      "player_id": "262749",
+      "name": "David Raya",
+      "name_key": "davidraya",
+      "profile_url": "https://www.transfermarkt.com/david-raya/profil/spieler/262749",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/262749-1668168018.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-262749.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "192279",
+      "name": "Kepa Arrizabalaga",
+      "name_key": "kepaarrizabalaga",
+      "profile_url": "https://www.transfermarkt.com/kepa-arrizabalaga/profil/spieler/192279",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/192279-1661855851.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-192279.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "435338",
+      "name": "Gabriel Magalhães",
+      "name_key": "gabrielmagalhaes",
+      "profile_url": "https://www.transfermarkt.com/gabriel-magalhaes/profil/spieler/435338",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/435338-1684162833.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-435338.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "659813",
+      "name": "Piero Hincapié",
+      "name_key": "pierohincapie",
+      "profile_url": "https://www.transfermarkt.com/piero-hincapie/profil/spieler/659813",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/659813-1727377918.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-659813.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "646750",
+      "name": "Cristhian Mosquera",
+      "name_key": "cristhianmosquera",
+      "profile_url": "https://www.transfermarkt.com/cristhian-mosquera/profil/spieler/646750",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/646750-1749739359.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-646750.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "502821",
+      "name": "Riccardo Calafiori",
+      "name_key": "riccardocalafiori",
+      "profile_url": "https://www.transfermarkt.com/riccardo-calafiori/profil/spieler/502821",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/502821-1727382174.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-502821.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "890721",
+      "name": "Myles Lewis-Skelly",
+      "name_key": "myleslewisskelly",
+      "profile_url": "https://www.transfermarkt.com/myles-lewis-skelly/profil/spieler/890721",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/890721-1758053582.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-890721.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "420243",
+      "name": "Jurriën Timber",
+      "name_key": "jurrientimber",
+      "profile_url": "https://www.transfermarkt.com/jurrien-timber/profil/spieler/420243",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/420243-1702413077.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-420243.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "335721",
+      "name": "Ben White",
+      "name_key": "benwhite",
+      "profile_url": "https://www.transfermarkt.com/ben-white/profil/spieler/335721",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/335721-1683275943.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-335721.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "423440",
+      "name": "Martín Zubimendi",
+      "name_key": "martinzubimendi",
+      "profile_url": "https://www.transfermarkt.com/martin-zubimendi/profil/spieler/423440",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/423440-1684149419.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-423440.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "148367",
+      "name": "Christian Nørgaard",
+      "name_key": "christiannrgaard",
+      "profile_url": "https://www.transfermarkt.com/christian-norgaard/profil/spieler/148367",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/148367-1699799827.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-148367.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "357662",
+      "name": "Declan Rice",
+      "name_key": "declanrice",
+      "profile_url": "https://www.transfermarkt.com/declan-rice/profil/spieler/357662",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/357662-1687962936.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-357662.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "479999",
+      "name": "Eberechi Eze",
+      "name_key": "eberechieze",
+      "profile_url": "https://www.transfermarkt.com/eberechi-eze/profil/spieler/479999",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/479999-1761083931.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-479999.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "655488",
+      "name": "Gabriel Martinelli",
+      "name_key": "gabrielmartinelli",
+      "profile_url": "https://www.transfermarkt.com/gabriel-martinelli/profil/spieler/655488",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/655488-1682689091.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-655488.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "144028",
+      "name": "Leandro Trossard",
+      "name_key": "leandrotrossard",
+      "profile_url": "https://www.transfermarkt.com/leandro-trossard/profil/spieler/144028",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/144028-1702412939.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-144028.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "433177",
+      "name": "Bukayo Saka",
+      "name_key": "bukayosaka",
+      "profile_url": "https://www.transfermarkt.com/bukayo-saka/profil/spieler/433177",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/433177-1684155052.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-433177.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "503987",
+      "name": "Noni Madueke",
+      "name_key": "nonimadueke",
+      "profile_url": "https://www.transfermarkt.com/noni-madueke/profil/spieler/503987",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/503987-1683102348.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-503987.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "1187629",
+      "name": "Max Dowman",
+      "name_key": "maxdowman",
+      "profile_url": "https://www.transfermarkt.com/max-dowman/profil/spieler/1187629",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1187629-1747137170.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1187629.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "325443",
+      "name": "Viktor Gyökeres",
+      "name_key": "viktorgyokeres",
+      "profile_url": "https://www.transfermarkt.com/viktor-gyokeres/profil/spieler/325443",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/325443-1737581896.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-325443.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "309400",
+      "name": "Kai Havertz",
+      "name_key": "kaihavertz",
+      "profile_url": "https://www.transfermarkt.com/kai-havertz/profil/spieler/309400",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/309400-1683903902.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-309400.jpg"
+    },
+    {
+      "team": "Arsenal",
+      "player_id": "363205",
+      "name": "Gabriel Jesus",
+      "name_key": "gabrieljesus",
+      "profile_url": "https://www.transfermarkt.com/gabriel-jesus/profil/spieler/363205",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/363205-1669711141.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-363205.jpg"
+    }
+  ],
+  "Inter": [
+    {
+      "team": "Inter",
+      "player_id": "388516",
+      "name": "Josep Martínez",
+      "name_key": "josepmartinez",
+      "profile_url": "https://www.transfermarkt.com/josep-martinez/profil/spieler/388516",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/388516-1686153132.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-388516.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "42205",
+      "name": "Yann Sommer",
+      "name_key": "yannsommer",
+      "profile_url": "https://www.transfermarkt.com/yann-sommer/profil/spieler/42205",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/42205-1669897427.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-42205.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "70580",
+      "name": "Raffaele Di Gennaro",
+      "name_key": "raffaeledigennaro",
+      "profile_url": "https://www.transfermarkt.com/raffaele-di-gennaro/profil/spieler/70580",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/70580-1692961707.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-70580.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "315853",
+      "name": "Alessandro Bastoni",
+      "name_key": "alessandrobastoni",
+      "profile_url": "https://www.transfermarkt.com/alessandro-bastoni/profil/spieler/315853",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/315853-1742497518.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-315853.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "441986",
+      "name": "Yann Bisseck",
+      "name_key": "yannbisseck",
+      "profile_url": "https://www.transfermarkt.com/yann-bisseck/profil/spieler/441986",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/441986-1742497863.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-441986.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "284730",
+      "name": "Manuel Akanji",
+      "name_key": "manuelakanji",
+      "profile_url": "https://www.transfermarkt.com/manuel-akanji/profil/spieler/284730",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/284730-1684165752.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-284730.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "111196",
+      "name": "Stefan de Vrij",
+      "name_key": "stefandevrij",
+      "profile_url": "https://www.transfermarkt.com/stefan-de-vrij/profil/spieler/111196",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/111196-1663572651.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-111196.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "131075",
+      "name": "Francesco Acerbi",
+      "name_key": "francescoacerbi",
+      "profile_url": "https://www.transfermarkt.com/francesco-acerbi/profil/spieler/131075",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/131075-1663572709.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-131075.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "198116",
+      "name": "Federico Dimarco",
+      "name_key": "federicodimarco",
+      "profile_url": "https://www.transfermarkt.com/federico-dimarco/profil/spieler/198116",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/198116-1725531769.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-198116.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "585982",
+      "name": "Carlos Augusto",
+      "name_key": "carlosaugusto",
+      "profile_url": "https://www.transfermarkt.com/carlos-augusto/profil/spieler/585982",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/585982-1735891597.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-585982.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "321528",
+      "name": "Denzel Dumfries",
+      "name_key": "denzeldumfries",
+      "profile_url": "https://www.transfermarkt.com/denzel-dumfries/profil/spieler/321528",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/321528-1746042223.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-321528.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "54906",
+      "name": "Matteo Darmian",
+      "name_key": "matteodarmian",
+      "profile_url": "https://www.transfermarkt.com/matteo-darmian/profil/spieler/54906",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/54906-1695027410.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-54906.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "126414",
+      "name": "Hakan Çalhanoğlu",
+      "name_key": "hakancalhanoglu",
+      "profile_url": "https://www.transfermarkt.com/hakan-calhanoglu/profil/spieler/126414",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/126414-1709035146.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-126414.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "255942",
+      "name": "Nicolò Barella",
+      "name_key": "nicolobarella",
+      "profile_url": "https://www.transfermarkt.com/nicolo-barella/profil/spieler/255942",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/255942-1725531625.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-255942.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "668207",
+      "name": "Petar Sučić",
+      "name_key": "petarsucic",
+      "profile_url": "https://www.transfermarkt.com/petar-sucic/profil/spieler/668207",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/668207-1757603291.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-668207.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "394300",
+      "name": "Davide Frattesi",
+      "name_key": "davidefrattesi",
+      "profile_url": "https://www.transfermarkt.com/davide-frattesi/profil/spieler/394300",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/394300-1730126974.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-394300.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "711976",
+      "name": "Andy Diouf",
+      "name_key": "andydiouf",
+      "profile_url": "https://www.transfermarkt.com/andy-diouf/profil/spieler/711976",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/711976-1756099849.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-711976.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "181136",
+      "name": "Piotr Zieliński",
+      "name_key": "piotrzielinski",
+      "profile_url": "https://www.transfermarkt.com/piotr-zielinski/profil/spieler/181136",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/181136-1692962961.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-181136.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "55735",
+      "name": "Henrikh Mkhitaryan",
+      "name_key": "henrikhmkhitaryan",
+      "profile_url": "https://www.transfermarkt.com/henrikh-mkhitaryan/profil/spieler/55735",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/55735-1664973670.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-55735.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "691316",
+      "name": "Luis Henrique",
+      "name_key": "luishenrique",
+      "profile_url": "https://www.transfermarkt.com/luis-henrique/profil/spieler/691316",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/691316-1743759325.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-691316.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "318528",
+      "name": "Marcus Thuram",
+      "name_key": "marcusthuram",
+      "profile_url": "https://www.transfermarkt.com/marcus-thuram/profil/spieler/318528",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/318528-1746041509.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-318528.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "827734",
+      "name": "Ange-Yoan Bonny",
+      "name_key": "angeyoanbonny",
+      "profile_url": "https://www.transfermarkt.com/ange-yoan-bonny/profil/spieler/827734",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/827734-1751380953.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-827734.jpg"
+    },
+    {
+      "team": "Inter",
+      "player_id": "930781",
+      "name": "Pio Esposito",
+      "name_key": "pioesposito",
+      "profile_url": "https://www.transfermarkt.com/pio-esposito/profil/spieler/930781",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/930781-1757605256.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-930781.jpg"
+    }
+  ],
+  "Atletico Madrid": [
+    {
+      "team": "Atletico Madrid",
+      "player_id": "121483",
+      "name": "Jan Oblak",
+      "name_key": "janoblak",
+      "profile_url": "https://www.transfermarkt.com/jan-oblak/profil/spieler/121483",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/121483-1719350076.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-121483.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "242359",
+      "name": "Juan Musso",
+      "name_key": "juanmusso",
+      "profile_url": "https://www.transfermarkt.com/juan-musso/profil/spieler/242359",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/242359-1663583047.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-242359.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "404418",
+      "name": "Dávid Hancko",
+      "name_key": "davidhancko",
+      "profile_url": "https://www.transfermarkt.com/david-hancko/profil/spieler/404418",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/404418-1722415670.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-404418.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "351809",
+      "name": "Robin Le Normand",
+      "name_key": "robinlenormand",
+      "profile_url": "https://www.transfermarkt.com/robin-le-normand/profil/spieler/351809",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/351809-1707948228.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-351809.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "844637",
+      "name": "Marc Pubill",
+      "name_key": "marcpubill",
+      "profile_url": "https://www.transfermarkt.com/marc-pubill/profil/spieler/844637",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/844637-1732735045.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-844637.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "250845",
+      "name": "José María Giménez",
+      "name_key": "josemariagimenez",
+      "profile_url": "https://www.transfermarkt.com/jose-maria-gimenez/profil/spieler/250845",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/250845-1664970029.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-250845.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "182904",
+      "name": "Clément Lenglet",
+      "name_key": "clementlenglet",
+      "profile_url": "https://www.transfermarkt.com/clement-lenglet/profil/spieler/182904",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/182904-1599988301.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-182904.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "616631",
+      "name": "Matteo Ruggeri",
+      "name_key": "matteoruggeri",
+      "profile_url": "https://www.transfermarkt.com/matteo-ruggeri/profil/spieler/616631",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/616631-1742497680.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-616631.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "282411",
+      "name": "Marcos Llorente",
+      "name_key": "marcosllorente",
+      "profile_url": "https://www.transfermarkt.com/marcos-llorente/profil/spieler/282411",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/282411-1684159821.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-282411.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "424042",
+      "name": "Nahuel Molina",
+      "name_key": "nahuelmolina",
+      "profile_url": "https://www.transfermarkt.com/nahuel-molina/profil/spieler/424042",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/424042-1697037362.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-424042.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "689505",
+      "name": "Johnny Cardoso",
+      "name_key": "johnnycardoso",
+      "profile_url": "https://www.transfermarkt.com/johnny-cardoso/profil/spieler/689505",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/689505-1742036970.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-689505.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "775605",
+      "name": "Pablo Barrios",
+      "name_key": "pablobarrios",
+      "profile_url": "https://www.transfermarkt.com/pablo-barrios/profil/spieler/775605",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/775605-1699431384.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-775605.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "961297",
+      "name": "Rodrigo Mendoza",
+      "name_key": "rodrigomendoza",
+      "profile_url": "https://www.transfermarkt.com/rodrigo-mendoza/profil/spieler/961297",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/961297-1765462791.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-961297.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "889435",
+      "name": "Obed Vargas",
+      "name_key": "obedvargas",
+      "profile_url": "https://www.transfermarkt.com/obed-vargas/profil/spieler/889435",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/889435-1740863407.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-889435.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "548111",
+      "name": "Álex Baena",
+      "name_key": "alexbaena",
+      "profile_url": "https://www.transfermarkt.com/alex-baena/profil/spieler/548111",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/548111-1761821030.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-548111.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "486031",
+      "name": "Nico González",
+      "name_key": "nicogonzalez",
+      "profile_url": "https://www.transfermarkt.com/nico-gonzalez/profil/spieler/486031",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/486031-1673442459.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-486031.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "576028",
+      "name": "Thiago Almada",
+      "name_key": "thiagoalmada",
+      "profile_url": "https://www.transfermarkt.com/thiago-almada/profil/spieler/576028",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/576028-1709363616.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-576028.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "742201",
+      "name": "Giuliano Simeone",
+      "name_key": "giulianosimeone",
+      "profile_url": "https://www.transfermarkt.com/giuliano-simeone/profil/spieler/742201",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/742201-1741120599.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-742201.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "406040",
+      "name": "Ademola Lookman",
+      "name_key": "ademolalookman",
+      "profile_url": "https://www.transfermarkt.com/ademola-lookman/profil/spieler/406040",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/406040-1769763751.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-406040.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "125781",
+      "name": "Antoine Griezmann",
+      "name_key": "antoinegriezmann",
+      "profile_url": "https://www.transfermarkt.com/antoine-griezmann/profil/spieler/125781",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/125781-1719928503.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-125781.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "576024",
+      "name": "Julián Alvarez",
+      "name_key": "julianalvarez",
+      "profile_url": "https://www.transfermarkt.com/julian-alvarez/profil/spieler/576024",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/576024-1684920938.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-576024.jpg"
+    },
+    {
+      "team": "Atletico Madrid",
+      "player_id": "238407",
+      "name": "Alexander Sørloth",
+      "name_key": "alexandersrloth",
+      "profile_url": "https://www.transfermarkt.com/alexander-sorloth/profil/spieler/238407",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/238407-1716403969.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-238407.jpg"
+    }
+  ],
+  "Chelsea": [
+    {
+      "team": "Chelsea",
+      "player_id": "403151",
+      "name": "Robert Sánchez",
+      "name_key": "robertsanchez",
+      "profile_url": "https://www.transfermarkt.com/robert-sanchez/profil/spieler/403151",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/403151-1695028195.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-403151.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "585323",
+      "name": "Filip Jørgensen",
+      "name_key": "filipjrgensen",
+      "profile_url": "https://www.transfermarkt.com/filip-jorgensen/profil/spieler/585323",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/585323-1718280485.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-585323.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "656316",
+      "name": "Gabriel Slonina",
+      "name_key": "gabrielslonina",
+      "profile_url": "https://www.transfermarkt.com/gabriel-slonina/profil/spieler/656316",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/656316-1645958054.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-656316.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "731466",
+      "name": "Teddy Sharman-Lowe",
+      "name_key": "teddysharmanlowe",
+      "profile_url": "https://www.transfermarkt.com/teddy-sharman-lowe/profil/spieler/731466",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/731466-1656922515.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-731466.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "346314",
+      "name": "Trevoh Chalobah",
+      "name_key": "trevohchalobah",
+      "profile_url": "https://www.transfermarkt.com/trevoh-chalobah/profil/spieler/346314",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/346314-1698937171.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-346314.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "475411",
+      "name": "Wesley Fofana",
+      "name_key": "wesleyfofana",
+      "profile_url": "https://www.transfermarkt.com/wesley-fofana/profil/spieler/475411",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/475411-1683899212.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-475411.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "910905",
+      "name": "Mamadou Sarr",
+      "name_key": "mamadousarr",
+      "profile_url": "https://www.transfermarkt.com/mamadou-sarr/profil/spieler/910905",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/910905-1732575264.png?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-910905.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "258878",
+      "name": "Tosin Adarabioyo",
+      "name_key": "tosinadarabioyo",
+      "profile_url": "https://www.transfermarkt.com/tosin-adarabioyo/profil/spieler/258878",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/258878-1646903871.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-258878.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "463603",
+      "name": "Benoît Badiashile",
+      "name_key": "benoitbadiashile",
+      "profile_url": "https://www.transfermarkt.com/benoit-badiashile/profil/spieler/463603",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/463603-1714721596.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-463603.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "284857",
+      "name": "Marc Cucurella",
+      "name_key": "marccucurella",
+      "profile_url": "https://www.transfermarkt.com/marc-cucurella/profil/spieler/284857",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/284857-1765185117.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-284857.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "904802",
+      "name": "Jorrel Hato",
+      "name_key": "jorrelhato",
+      "profile_url": "https://www.transfermarkt.com/jorrel-hato/profil/spieler/904802",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/904802-1701361717.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-904802.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "620322",
+      "name": "Malo Gusto",
+      "name_key": "malogusto",
+      "profile_url": "https://www.transfermarkt.com/malo-gusto/profil/spieler/620322",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/620322-1752061866.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-620322.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "1004708",
+      "name": "Josh Acheampong",
+      "name_key": "joshacheampong",
+      "profile_url": "https://www.transfermarkt.com/josh-acheampong/profil/spieler/1004708",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1004708-1715156243.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1004708.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "687626",
+      "name": "Moisés Caicedo",
+      "name_key": "moisescaicedo",
+      "profile_url": "https://www.transfermarkt.com/moises-caicedo/profil/spieler/687626",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/687626-1660729724.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-687626.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "628451",
+      "name": "Roméo Lavia",
+      "name_key": "romeolavia",
+      "profile_url": "https://www.transfermarkt.com/romeo-lavia/profil/spieler/628451",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/628451-1683898478.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-628451.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "648195",
+      "name": "Enzo Fernández",
+      "name_key": "enzofernandez",
+      "profile_url": "https://www.transfermarkt.com/enzo-fernandez/profil/spieler/648195",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/648195-1669894717.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-648195.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "743600",
+      "name": "Andrey Santos",
+      "name_key": "andreysantos",
+      "profile_url": "https://www.transfermarkt.com/andrey-santos/profil/spieler/743600",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/743600-1732576153.png?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-743600.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "568177",
+      "name": "Cole Palmer",
+      "name_key": "colepalmer",
+      "profile_url": "https://www.transfermarkt.com/cole-palmer/profil/spieler/568177",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/568177-1712320986.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-568177.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "811779",
+      "name": "Alejandro Garnacho",
+      "name_key": "alejandrogarnacho",
+      "profile_url": "https://www.transfermarkt.com/alejandro-garnacho/profil/spieler/811779",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/811779-1703629085.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-811779.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "487465",
+      "name": "Pedro Neto",
+      "name_key": "pedroneto",
+      "profile_url": "https://www.transfermarkt.com/pedro-neto/profil/spieler/487465",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/487465-1763106447.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-487465.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "626724",
+      "name": "João Pedro",
+      "name_key": "joaopedro",
+      "profile_url": "https://www.transfermarkt.com/joao-pedro/profil/spieler/626724",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/626724-1724792744.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-626724.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "610849",
+      "name": "Liam Delap",
+      "name_key": "liamdelap",
+      "profile_url": "https://www.transfermarkt.com/liam-delap/profil/spieler/610849",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/610849-1746646306.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-610849.jpg"
+    },
+    {
+      "team": "Chelsea",
+      "player_id": "938158",
+      "name": "Marc Guiu",
+      "name_key": "marcguiu",
+      "profile_url": "https://www.transfermarkt.com/marc-guiu/profil/spieler/938158",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/938158-1719846394.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-938158.jpg"
+    }
+  ],
+  "Juventus": [
+    {
+      "team": "Juventus",
+      "player_id": "301238",
+      "name": "Michele Di Gregorio",
+      "name_key": "micheledigregorio",
+      "profile_url": "https://www.transfermarkt.com/michele-di-gregorio/profil/spieler/301238",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/301238-1730125609.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-301238.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "110923",
+      "name": "Mattia Perin",
+      "name_key": "mattiaperin",
+      "profile_url": "https://www.transfermarkt.com/mattia-perin/profil/spieler/110923",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/110923-1695107834.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-110923.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "75411",
+      "name": "Carlo Pinsoglio",
+      "name_key": "carlopinsoglio",
+      "profile_url": "https://www.transfermarkt.com/carlo-pinsoglio/profil/spieler/75411",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/75411-1663577377.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-75411.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "516716",
+      "name": "Bremer",
+      "name_key": "bremer",
+      "profile_url": "https://www.transfermarkt.com/bremer/profil/spieler/516716",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/516716-1725531520.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-516716.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "585949",
+      "name": "Pierre Kalulu",
+      "name_key": "pierrekalulu",
+      "profile_url": "https://www.transfermarkt.com/pierre-kalulu/profil/spieler/585949",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/585949-1684854558.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-585949.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "509022",
+      "name": "Federico Gatti",
+      "name_key": "federicogatti",
+      "profile_url": "https://www.transfermarkt.com/federico-gatti/profil/spieler/509022",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/509022-1725531068.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-509022.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "480116",
+      "name": "Lloyd Kelly",
+      "name_key": "lloydkelly",
+      "profile_url": "https://www.transfermarkt.com/lloyd-kelly/profil/spieler/480116",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/480116-1739281396.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-480116.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "686965",
+      "name": "Juan Cabal",
+      "name_key": "juancabal",
+      "profile_url": "https://www.transfermarkt.com/juan-cabal/profil/spieler/686965",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/686965-1692964112.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-686965.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "463618",
+      "name": "Khéphren Thuram",
+      "name_key": "khephrenthuram",
+      "profile_url": "https://www.transfermarkt.com/khephren-thuram/profil/spieler/463618",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/463618-1683889273.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-463618.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "332697",
+      "name": "Weston McKennie",
+      "name_key": "westonmckennie",
+      "profile_url": "https://www.transfermarkt.com/weston-mckennie/profil/spieler/332697",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/332697-1754245044.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-332697.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "571607",
+      "name": "Fabio Miretti",
+      "name_key": "fabiomiretti",
+      "profile_url": "https://www.transfermarkt.com/fabio-miretti/profil/spieler/571607",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/571607-1652773586.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-571607.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "459658",
+      "name": "Andrea Cambiaso",
+      "name_key": "andreacambiaso",
+      "profile_url": "https://www.transfermarkt.com/andrea-cambiaso/profil/spieler/459658",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/459658-1662127057.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-459658.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "161011",
+      "name": "Filip Kostić",
+      "name_key": "filipkostic",
+      "profile_url": "https://www.transfermarkt.com/filip-kostic/profil/spieler/161011",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/161011-1757663094.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-161011.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "360518",
+      "name": "Teun Koopmeiners",
+      "name_key": "teunkoopmeiners",
+      "profile_url": "https://www.transfermarkt.com/teun-koopmeiners/profil/spieler/360518",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/360518-1707302998.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-360518.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "944570",
+      "name": "Vasilije Adžić",
+      "name_key": "vasilijeadzic",
+      "profile_url": "https://www.transfermarkt.com/vasilije-adzic/profil/spieler/944570",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/944570-1730123395.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-944570.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "845654",
+      "name": "Kenan Yıldız",
+      "name_key": "kenanyldz",
+      "profile_url": "https://www.transfermarkt.com/kenan-yildiz/profil/spieler/845654",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/845654-1759822280.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-845654.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "216569",
+      "name": "Jérémie Boga",
+      "name_key": "jeremieboga",
+      "profile_url": "https://www.transfermarkt.com/jeremie-boga/profil/spieler/216569",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/216569-1756824408.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-216569.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "487474",
+      "name": "Francisco Conceição",
+      "name_key": "franciscoconceicao",
+      "profile_url": "https://www.transfermarkt.com/francisco-conceicao/profil/spieler/487474",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/487474-1749069081.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-487474.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "496857",
+      "name": "Edon Zhegrova",
+      "name_key": "edonzhegrova",
+      "profile_url": "https://www.transfermarkt.com/edon-zhegrova/profil/spieler/496857",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/496857-1767803628.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-496857.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "368887",
+      "name": "Loïs Openda",
+      "name_key": "loisopenda",
+      "profile_url": "https://www.transfermarkt.com/lois-openda/profil/spieler/368887",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/368887-1713944805.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-368887.jpg"
+    },
+    {
+      "team": "Juventus",
+      "player_id": "533738",
+      "name": "Jonathan David",
+      "name_key": "jonathandavid",
+      "profile_url": "https://www.transfermarkt.com/jonathan-david/profil/spieler/533738",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/533738-1760114012.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-533738.jpg"
+    }
+  ],
+  "Manchester United": [
+    {
+      "team": "Manchester United",
+      "player_id": "503883",
+      "name": "Senne Lammens",
+      "name_key": "sennelammens",
+      "profile_url": "https://www.transfermarkt.com/senne-lammens/profil/spieler/503883",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/503883-1755675220.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-503883.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "336077",
+      "name": "Altay Bayındır",
+      "name_key": "altaybayndr",
+      "profile_url": "https://www.transfermarkt.com/altay-bayindir/profil/spieler/336077",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/336077-1699471821.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-336077.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "34130",
+      "name": "Tom Heaton",
+      "name_key": "tomheaton",
+      "profile_url": "https://www.transfermarkt.com/tom-heaton/profil/spieler/34130",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/34130-1688121718.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-34130.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "923831",
+      "name": "Leny Yoro",
+      "name_key": "lenyyoro",
+      "profile_url": "https://www.transfermarkt.com/leny-yoro/profil/spieler/923831",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/923831-1747857948.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-923831.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "177907",
+      "name": "Harry Maguire",
+      "name_key": "harrymaguire",
+      "profile_url": "https://www.transfermarkt.com/harry-maguire/profil/spieler/177907",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/177907-1663841733.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-177907.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "1078163",
+      "name": "Ayden Heaven",
+      "name_key": "aydenheaven",
+      "profile_url": "https://www.transfermarkt.com/ayden-heaven/profil/spieler/1078163",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1078163-1727382016.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1078163.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "911424",
+      "name": "Tyler Fredricson",
+      "name_key": "tylerfredricson",
+      "profile_url": "https://www.transfermarkt.com/tyler-fredricson/profil/spieler/911424",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/911424-1739789023.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-911424.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "183288",
+      "name": "Luke Shaw",
+      "name_key": "lukeshaw",
+      "profile_url": "https://www.transfermarkt.com/luke-shaw/profil/spieler/183288",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/183288-1668500175.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-183288.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "339340",
+      "name": "Tyrell Malacia",
+      "name_key": "tyrellmalacia",
+      "profile_url": "https://www.transfermarkt.com/tyrell-malacia/profil/spieler/339340",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/339340-1657096025.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-339340.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "1283997",
+      "name": "Diego León",
+      "name_key": "diegoleon",
+      "profile_url": "https://www.transfermarkt.com/diego-leon/profil/spieler/1283997",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1283997-1751711448.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1283997.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "357147",
+      "name": "Diogo Dalot",
+      "name_key": "diogodalot",
+      "profile_url": "https://www.transfermarkt.com/diogo-dalot/profil/spieler/357147",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/357147-1727785546.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-357147.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "340456",
+      "name": "Noussair Mazraoui",
+      "name_key": "noussairmazraoui",
+      "profile_url": "https://www.transfermarkt.com/noussair-mazraoui/profil/spieler/340456",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/340456-1700207898.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-340456.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "476701",
+      "name": "Manuel Ugarte",
+      "name_key": "manuelugarte",
+      "profile_url": "https://www.transfermarkt.com/manuel-ugarte/profil/spieler/476701",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/476701-1715107512.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-476701.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "16306",
+      "name": "Casemiro",
+      "name_key": "casemiro",
+      "profile_url": "https://www.transfermarkt.com/casemiro/profil/spieler/16306",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/16306-1699018876.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-16306.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "820374",
+      "name": "Kobbie Mainoo",
+      "name_key": "kobbiemainoo",
+      "profile_url": "https://www.transfermarkt.com/kobbie-mainoo/profil/spieler/820374",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/820374-1719349758.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-820374.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "413039",
+      "name": "Bryan Mbeumo",
+      "name_key": "bryanmbeumo",
+      "profile_url": "https://www.transfermarkt.com/bryan-mbeumo/profil/spieler/413039",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/413039-1769532496.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-413039.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "536835",
+      "name": "Amad Diallo",
+      "name_key": "amaddiallo",
+      "profile_url": "https://www.transfermarkt.com/amad-diallo/profil/spieler/536835",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/536835-1747857754.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-536835.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "517894",
+      "name": "Matheus Cunha",
+      "name_key": "matheuscunha",
+      "profile_url": "https://www.transfermarkt.com/matheus-cunha/profil/spieler/517894",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/517894-1696599737.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-517894.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "627442",
+      "name": "Benjamin Sesko",
+      "name_key": "benjaminsesko",
+      "profile_url": "https://www.transfermarkt.com/benjamin-sesko/profil/spieler/627442",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/627442-1713897956.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-627442.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "435648",
+      "name": "Joshua Zirkzee",
+      "name_key": "joshuazirkzee",
+      "profile_url": "https://www.transfermarkt.com/joshua-zirkzee/profil/spieler/435648",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/435648-1766049648.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-435648.jpg"
+    },
+    {
+      "team": "Manchester United",
+      "player_id": "1042886",
+      "name": "Chido Obi",
+      "name_key": "chidoobi",
+      "profile_url": "https://www.transfermarkt.com/chido-obi/profil/spieler/1042886",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1042886-1739789319.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1042886.jpg"
+    }
+  ],
+  "AC Milan": [
+    {
+      "team": "AC Milan",
+      "player_id": "96254",
+      "name": "Pietro Terracciano",
+      "name_key": "pietroterracciano",
+      "profile_url": "https://www.transfermarkt.com/pietro-terracciano/profil/spieler/96254",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/96254-1753403934.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-96254.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "939745",
+      "name": "Lorenzo Torriani",
+      "name_key": "lorenzotorriani",
+      "profile_url": "https://www.transfermarkt.com/lorenzo-torriani/profil/spieler/939745",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/939745-1730184012.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-939745.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "574671",
+      "name": "Strahinja Pavlović",
+      "name_key": "strahinjapavlovic",
+      "profile_url": "https://www.transfermarkt.com/strahinja-pavlovic/profil/spieler/574671",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/574671-1757664768.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-574671.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "490384",
+      "name": "Koni De Winter",
+      "name_key": "konidewinter",
+      "profile_url": "https://www.transfermarkt.com/koni-de-winter/profil/spieler/490384",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/490384-1730126791.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-490384.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "303254",
+      "name": "Fikayo Tomori",
+      "name_key": "fikayotomori",
+      "profile_url": "https://www.transfermarkt.com/fikayo-tomori/profil/spieler/303254",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/303254-1684856117.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-303254.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "897423",
+      "name": "David Odogu",
+      "name_key": "davidodogu",
+      "profile_url": "https://www.transfermarkt.com/david-odogu/profil/spieler/897423",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/897423-1724771146.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-897423.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "887638",
+      "name": "Davide Bartesaghi",
+      "name_key": "davidebartesaghi",
+      "profile_url": "https://www.transfermarkt.com/davide-bartesaghi/profil/spieler/887638",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/887638-1695108454.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-887638.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "349599",
+      "name": "Pervis Estupiñán",
+      "name_key": "pervisestupinan",
+      "profile_url": "https://www.transfermarkt.com/pervis-estupinan/profil/spieler/349599",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/349599-1668498118.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-349599.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "990637",
+      "name": "Zachary Athekame",
+      "name_key": "zacharyathekame",
+      "profile_url": "https://www.transfermarkt.com/zachary-athekame/profil/spieler/990637",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/990637-1733948149.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-990637.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "608172",
+      "name": "Ardon Jashari",
+      "name_key": "ardonjashari",
+      "profile_url": "https://www.transfermarkt.com/ardon-jashari/profil/spieler/608172",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/608172-1734438792.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-608172.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "569598",
+      "name": "Youssouf Fofana",
+      "name_key": "youssouffofana",
+      "profile_url": "https://www.transfermarkt.com/youssouf-fofana/profil/spieler/569598",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/569598-1725528517.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-569598.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "467992",
+      "name": "Samuele Ricci",
+      "name_key": "samuelericci",
+      "profile_url": "https://www.transfermarkt.com/samuele-ricci/profil/spieler/467992",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/467992-1730125512.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-467992.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "182913",
+      "name": "Adrien Rabiot",
+      "name_key": "adrienrabiot",
+      "profile_url": "https://www.transfermarkt.com/adrien-rabiot/profil/spieler/182913",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/182913-1681462009.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-182913.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "27992",
+      "name": "Luka Modrić",
+      "name_key": "lukamodric",
+      "profile_url": "https://www.transfermarkt.com/luka-modric/profil/spieler/27992",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/27992-1687776160.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-27992.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "381950",
+      "name": "Alexis Saelemaekers",
+      "name_key": "alexissaelemaekers",
+      "profile_url": "https://www.transfermarkt.com/alexis-saelemaekers/profil/spieler/381950",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/381950-1757604189.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-381950.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "357164",
+      "name": "Rafael Leão",
+      "name_key": "rafaelleao",
+      "profile_url": "https://www.transfermarkt.com/rafael-leao/profil/spieler/357164",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/357164-1730126553.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-357164.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "315779",
+      "name": "Christian Pulisic",
+      "name_key": "christianpulisic",
+      "profile_url": "https://www.transfermarkt.com/christian-pulisic/profil/spieler/315779",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/315779-1691696699.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-315779.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "344381",
+      "name": "Christopher Nkunku",
+      "name_key": "christophernkunku",
+      "profile_url": "https://www.transfermarkt.com/christopher-nkunku/profil/spieler/344381",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/344381-1663686834.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-344381.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "552955",
+      "name": "Santiago Gimenez",
+      "name_key": "santiagogimenez",
+      "profile_url": "https://www.transfermarkt.com/santiago-gimenez/profil/spieler/552955",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/552955-1739903736.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-552955.jpg"
+    },
+    {
+      "team": "AC Milan",
+      "player_id": "75489",
+      "name": "Niclas Füllkrug",
+      "name_key": "niclasfullkrug",
+      "profile_url": "https://www.transfermarkt.com/niclas-fullkrug/profil/spieler/75489",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/75489-1768815337.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-75489.jpg"
+    }
+  ],
+  "Borussia Dortmund": [
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "257814",
+      "name": "Gregor Kobel",
+      "name_key": "gregorkobel",
+      "profile_url": "https://www.transfermarkt.com/gregor-kobel/profil/spieler/257814",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/257814-1709559904.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-257814.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "76158",
+      "name": "Alexander Meyer",
+      "name_key": "alexandermeyer",
+      "profile_url": "https://www.transfermarkt.com/alexander-meyer/profil/spieler/76158",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/76158-1716381651.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-76158.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "94192",
+      "name": "Patrick Drewes",
+      "name_key": "patrickdrewes",
+      "profile_url": "https://www.transfermarkt.com/patrick-drewes/profil/spieler/94192",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/94192-1721851751.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-94192.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "684116",
+      "name": "Silas Ostrzinski",
+      "name_key": "silasostrzinski",
+      "profile_url": "https://www.transfermarkt.com/silas-ostrzinski/profil/spieler/684116",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/684116-1657285206.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-684116.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "388198",
+      "name": "Nico Schlotterbeck",
+      "name_key": "nicoschlotterbeck",
+      "profile_url": "https://www.transfermarkt.com/nico-schlotterbeck/profil/spieler/388198",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/388198-1709560457.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-388198.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "193004",
+      "name": "Waldemar Anton",
+      "name_key": "waldemaranton",
+      "profile_url": "https://www.transfermarkt.com/waldemar-anton/profil/spieler/193004",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/193004-1723922551.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-193004.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "284732",
+      "name": "Ramy Bensebaini",
+      "name_key": "ramybensebaini",
+      "profile_url": "https://www.transfermarkt.com/ramy-bensebaini/profil/spieler/284732",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/284732-1730103772.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-284732.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "1074990",
+      "name": "Luca Reggiani",
+      "name_key": "lucareggiani",
+      "profile_url": "https://www.transfermarkt.com/luca-reggiani/profil/spieler/1074990",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1074990-1771366237.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1074990.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "579287",
+      "name": "Daniel Svensson",
+      "name_key": "danielsvensson",
+      "profile_url": "https://www.transfermarkt.com/daniel-svensson/profil/spieler/579287",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/579287-1739179044.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-579287.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "884820",
+      "name": "Almugera Kabar",
+      "name_key": "almugerakabar",
+      "profile_url": "https://www.transfermarkt.com/almugera-kabar/profil/spieler/884820",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/884820-1713462323.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-884820.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "370789",
+      "name": "Julian Ryerson",
+      "name_key": "julianryerson",
+      "profile_url": "https://www.transfermarkt.com/julian-ryerson/profil/spieler/370789",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/370789-1709561216.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-370789.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "244940",
+      "name": "Salih Özcan",
+      "name_key": "salihozcan",
+      "profile_url": "https://www.transfermarkt.com/salih-ozcan/profil/spieler/244940",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/244940-1709561120.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-244940.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "406640",
+      "name": "Felix Nmecha",
+      "name_key": "felixnmecha",
+      "profile_url": "https://www.transfermarkt.com/felix-nmecha/profil/spieler/406640",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/406640-1709560961.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-406640.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "796297",
+      "name": "Jobe Bellingham",
+      "name_key": "jobebellingham",
+      "profile_url": "https://www.transfermarkt.com/jobe-bellingham/profil/spieler/796297",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/796297-1766483351.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-796297.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "106987",
+      "name": "Marcel Sabitzer",
+      "name_key": "marcelsabitzer",
+      "profile_url": "https://www.transfermarkt.com/marcel-sabitzer/profil/spieler/106987",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/106987-1711745992.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-106987.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "627228",
+      "name": "Yan Couto",
+      "name_key": "yancouto",
+      "profile_url": "https://www.transfermarkt.com/yan-couto/profil/spieler/627228",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/627228-1723922216.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-627228.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "187492",
+      "name": "Julian Brandt",
+      "name_key": "julianbrandt",
+      "profile_url": "https://www.transfermarkt.com/julian-brandt/profil/spieler/187492",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/187492-1709560849.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-187492.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "496094",
+      "name": "Karim Adeyemi",
+      "name_key": "karimadeyemi",
+      "profile_url": "https://www.transfermarkt.com/karim-adeyemi/profil/spieler/496094",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/496094-1712859708.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-496094.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "270541",
+      "name": "Serhou Guirassy",
+      "name_key": "serhouguirassy",
+      "profile_url": "https://www.transfermarkt.com/serhou-guirassy/profil/spieler/270541",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/270541-1755989642.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-270541.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "578392",
+      "name": "Maximilian Beier",
+      "name_key": "maximilianbeier",
+      "profile_url": "https://www.transfermarkt.com/maximilian-beier/profil/spieler/578392",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/578392-1733829348.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-578392.jpg"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "player_id": "505653",
+      "name": "Fábio Silva",
+      "name_key": "fabiosilva",
+      "profile_url": "https://www.transfermarkt.com/fabio-silva/profil/spieler/505653",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/505653-1766483527.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-505653.jpg"
+    }
+  ],
+  "Bayer Leverkusen": [
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "247915",
+      "name": "Jonas Omlin",
+      "name_key": "jonasomlin",
+      "profile_url": "https://www.transfermarkt.com/jonas-omlin/profil/spieler/247915",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/247915-1691248651.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-247915.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "81173",
+      "name": "Janis Blaswich",
+      "name_key": "janisblaswich",
+      "profile_url": "https://www.transfermarkt.com/janis-blaswich/profil/spieler/81173",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/81173-1758702865.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-81173.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "85543",
+      "name": "Niklas Lomb",
+      "name_key": "niklaslomb",
+      "profile_url": "https://www.transfermarkt.com/niklas-lomb/profil/spieler/85543",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/85543-1695367888.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-85543.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "632349",
+      "name": "Jarell Quansah",
+      "name_key": "jarellquansah",
+      "profile_url": "https://www.transfermarkt.com/jarell-quansah/profil/spieler/632349",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/632349-1758704191.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-632349.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "564545",
+      "name": "Edmond Tapsoba",
+      "name_key": "edmondtapsoba",
+      "profile_url": "https://www.transfermarkt.com/edmond-tapsoba/profil/spieler/564545",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/564545-1695368009.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-564545.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "1077670",
+      "name": "Axel Tape",
+      "name_key": "axeltape",
+      "profile_url": "https://www.transfermarkt.com/axel-tape/profil/spieler/1077670",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1077670-1758703206.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1077670.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "696164",
+      "name": "Tim Oermann",
+      "name_key": "timoermann",
+      "profile_url": "https://www.transfermarkt.com/tim-oermann/profil/spieler/696164",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/696164-1657283257.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-696164.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "1133977",
+      "name": "Issa Traoré",
+      "name_key": "issatraore",
+      "profile_url": "https://www.transfermarkt.com/issa-traore/profil/spieler/1133977",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1133977-1730193915.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1133977.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "193082",
+      "name": "Alejandro Grimaldo",
+      "name_key": "alejandrogrimaldo",
+      "profile_url": "https://www.transfermarkt.com/alejandro-grimaldo/profil/spieler/193082",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/193082-1689710805.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-193082.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "664708",
+      "name": "Equi Fernández",
+      "name_key": "equifernandez",
+      "profile_url": "https://www.transfermarkt.com/equi-fernandez/profil/spieler/664708",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/664708-1758703953.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-664708.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "401578",
+      "name": "Exequiel Palacios",
+      "name_key": "exequielpalacios",
+      "profile_url": "https://www.transfermarkt.com/exequiel-palacios/profil/spieler/401578",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/401578-1695368200.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-401578.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "261504",
+      "name": "Aleix García",
+      "name_key": "aleixgarcia",
+      "profile_url": "https://www.transfermarkt.com/aleix-garcia/profil/spieler/261504",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/261504-1727378020.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-261504.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "467437",
+      "name": "Malik Tillman",
+      "name_key": "maliktillman",
+      "profile_url": "https://www.transfermarkt.com/malik-tillman/profil/spieler/467437",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/467437-1758703514.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-467437.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "905011",
+      "name": "Ibrahim Maza",
+      "name_key": "ibrahimmaza",
+      "profile_url": "https://www.transfermarkt.com/ibrahim-maza/profil/spieler/905011",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/905011-1758702817.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-905011.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "7161",
+      "name": "Jonas Hofmann",
+      "name_key": "jonashofmann",
+      "profile_url": "https://www.transfermarkt.com/jonas-hofmann/profil/spieler/7161",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/7161-1689710421.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-7161.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "442891",
+      "name": "Martin Terrier",
+      "name_key": "martinterrier",
+      "profile_url": "https://www.transfermarkt.com/martin-terrier/profil/spieler/442891",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/442891-1727378397.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-442891.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "718303",
+      "name": "Ernest Poku",
+      "name_key": "ernestpoku",
+      "profile_url": "https://www.transfermarkt.com/ernest-poku/profil/spieler/718303",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/718303-1758703071.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-718303.jpg"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "player_id": "1364454",
+      "name": "Christian Kofane",
+      "name_key": "christiankofane",
+      "profile_url": "https://www.transfermarkt.com/christian-kofane/profil/spieler/1364454",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1364454-1758702715.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1364454.jpg"
+    }
+  ],
+  "Tottenham": [
+    {
+      "team": "Tottenham",
+      "player_id": "286047",
+      "name": "Guglielmo Vicario",
+      "name_key": "guglielmovicario",
+      "profile_url": "https://www.transfermarkt.com/guglielmo-vicario/profil/spieler/286047",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/286047-1725874745.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-286047.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "725912",
+      "name": "Antonín Kinský",
+      "name_key": "antoninkinsky",
+      "profile_url": "https://www.transfermarkt.com/antonin-kinsky/profil/spieler/725912",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/725912-1766160431.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-725912.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "428016",
+      "name": "Brandon Austin",
+      "name_key": "brandonaustin",
+      "profile_url": "https://www.transfermarkt.com/brandon-austin/profil/spieler/428016",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/428016-1737735261.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-428016.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "568559",
+      "name": "Radu Drăgușin",
+      "name_key": "radudragusin",
+      "profile_url": "https://www.transfermarkt.com/radu-dragusin/profil/spieler/568559",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/568559-1704716630.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-568559.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "263236",
+      "name": "Kevin Danso",
+      "name_key": "kevindanso",
+      "profile_url": "https://www.transfermarkt.com/kevin-danso/profil/spieler/263236",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/263236-1691217955.png?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-263236.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "553875",
+      "name": "Pedro Porro",
+      "name_key": "pedroporro",
+      "profile_url": "https://www.transfermarkt.com/pedro-porro/profil/spieler/553875",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/553875-1730812390.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-553875.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "257455",
+      "name": "João Palhinha",
+      "name_key": "joaopalhinha",
+      "profile_url": "https://www.transfermarkt.com/joao-palhinha/profil/spieler/257455",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/257455-1684773447.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-257455.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "410425",
+      "name": "Yves Bissouma",
+      "name_key": "yvesbissouma",
+      "profile_url": "https://www.transfermarkt.com/yves-bissouma/profil/spieler/410425",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/410425-1665607355.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-410425.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "922693",
+      "name": "Archie Gray",
+      "name_key": "archiegray",
+      "profile_url": "https://www.transfermarkt.com/archie-gray/profil/spieler/922693",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/922693-1695108880.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-922693.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "488362",
+      "name": "Conor Gallagher",
+      "name_key": "conorgallagher",
+      "profile_url": "https://www.transfermarkt.com/conor-gallagher/profil/spieler/488362",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/488362-1668500476.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-488362.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "568693",
+      "name": "Pape Matar Sarr",
+      "name_key": "papematarsarr",
+      "profile_url": "https://www.transfermarkt.com/pape-matar-sarr/profil/spieler/568693",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/568693-1668163083.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-568693.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "566931",
+      "name": "Xavi Simons",
+      "name_key": "xavisimons",
+      "profile_url": "https://www.transfermarkt.com/xavi-simons/profil/spieler/566931",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/566931-1729778226.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-566931.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "258889",
+      "name": "Dominic Solanke",
+      "name_key": "dominicsolanke",
+      "profile_url": "https://www.transfermarkt.com/dominic-solanke/profil/spieler/258889",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/258889-1708340487.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-258889.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "801734",
+      "name": "Mathys Tel",
+      "name_key": "mathystel",
+      "profile_url": "https://www.transfermarkt.com/mathys-tel/profil/spieler/801734",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/801734-1700040486.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-801734.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "378710",
+      "name": "Richarlison",
+      "name_key": "richarlison",
+      "profile_url": "https://www.transfermarkt.com/richarlison/profil/spieler/378710",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/378710-1665608231.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-378710.jpg"
+    },
+    {
+      "team": "Tottenham",
+      "player_id": "487969",
+      "name": "Randal Kolo Muani",
+      "name_key": "randalkolomuani",
+      "profile_url": "https://www.transfermarkt.com/randal-kolo-muani/profil/spieler/487969",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/487969-1718697120.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-487969.jpg"
+    }
+  ],
+  "Napoli": [
+    {
+      "team": "Napoli",
+      "player_id": "257474",
+      "name": "Vanja Milinković-Savić",
+      "name_key": "vanjamilinkovicsavic",
+      "profile_url": "https://www.transfermarkt.com/vanja-milinkovic-savic/profil/spieler/257474",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/257474-1730125139.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-257474.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "240414",
+      "name": "Alex Meret",
+      "name_key": "alexmeret",
+      "profile_url": "https://www.transfermarkt.com/alex-meret/profil/spieler/240414",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/240414-1695025886.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-240414.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "250683",
+      "name": "Nikita Contini",
+      "name_key": "nikitacontini",
+      "profile_url": "https://www.transfermarkt.com/nikita-contini/profil/spieler/250683",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/250683-1663679972.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-250683.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "1195798",
+      "name": "Mathias Ferrante",
+      "name_key": "mathiasferrante",
+      "profile_url": "https://www.transfermarkt.com/mathias-ferrante/profil/spieler/1195798",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1195798-1707491711.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1195798.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "386446",
+      "name": "Alessandro Buongiorno",
+      "name_key": "alessandrobuongiorno",
+      "profile_url": "https://www.transfermarkt.com/alessandro-buongiorno/profil/spieler/386446",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/386446-1663596475.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-386446.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "433984",
+      "name": "Sam Beukema",
+      "name_key": "sambeukema",
+      "profile_url": "https://www.transfermarkt.com/sam-beukema/profil/spieler/433984",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/433984-1696837343.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-433984.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "121985",
+      "name": "Juan Jesus",
+      "name_key": "juanjesus",
+      "profile_url": "https://www.transfermarkt.com/juan-jesus/profil/spieler/121985",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/121985-1630496408.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-121985.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "376514",
+      "name": "Mathías Olivera",
+      "name_key": "mathiasolivera",
+      "profile_url": "https://www.transfermarkt.com/mathias-olivera/profil/spieler/376514",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/376514-1681910576.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-376514.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "525299",
+      "name": "Miguel Gutiérrez",
+      "name_key": "miguelgutierrez",
+      "profile_url": "https://www.transfermarkt.com/miguel-gutierrez/profil/spieler/525299",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/525299-1755681125.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-525299.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "118689",
+      "name": "Leonardo Spinazzola",
+      "name_key": "leonardospinazzola",
+      "profile_url": "https://www.transfermarkt.com/leonardo-spinazzola/profil/spieler/118689",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/118689-1663580982.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-118689.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "250153",
+      "name": "Pasquale Mazzocchi",
+      "name_key": "pasqualemazzocchi",
+      "profile_url": "https://www.transfermarkt.com/pasquale-mazzocchi/profil/spieler/250153",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/250153-1725529479.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-250153.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "423744",
+      "name": "Billy Gilmour",
+      "name_key": "billygilmour",
+      "profile_url": "https://www.transfermarkt.com/billy-gilmour/profil/spieler/423744",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/423744-1701544195.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-423744.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "354361",
+      "name": "Frank Anguissa",
+      "name_key": "frankanguissa",
+      "profile_url": "https://www.transfermarkt.com/frank-anguissa/profil/spieler/354361",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/354361-1695026237.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-354361.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "88755",
+      "name": "Kevin De Bruyne",
+      "name_key": "kevindebruyne",
+      "profile_url": "https://www.transfermarkt.com/kevin-de-bruyne/profil/spieler/88755",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/88755-1713391485.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-88755.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "400489",
+      "name": "Eljif Elmas",
+      "name_key": "eljifelmas",
+      "profile_url": "https://www.transfermarkt.com/eljif-elmas/profil/spieler/400489",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/400489-1709127683.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-400489.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "703245",
+      "name": "Antonio Vergara",
+      "name_key": "antoniovergara",
+      "profile_url": "https://www.transfermarkt.com/antonio-vergara/profil/spieler/703245",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/703245-1757662637.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-703245.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "830365",
+      "name": "Alisson Santos",
+      "name_key": "alissonsantos",
+      "profile_url": "https://www.transfermarkt.com/alisson-santos/profil/spieler/830365",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/830365-1765306584.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-830365.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "165895",
+      "name": "Matteo Politano",
+      "name_key": "matteopolitano",
+      "profile_url": "https://www.transfermarkt.com/matteo-politano/profil/spieler/165895",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/165895-1692963030.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-165895.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "610442",
+      "name": "Rasmus Højlund",
+      "name_key": "rasmushjlund",
+      "profile_url": "https://www.transfermarkt.com/rasmus-hojlund/profil/spieler/610442",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/610442-1757931324.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-610442.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "96341",
+      "name": "Romelu Lukaku",
+      "name_key": "romelulukaku",
+      "profile_url": "https://www.transfermarkt.com/romelu-lukaku/profil/spieler/96341",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/96341-1661780981.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-96341.jpg"
+    },
+    {
+      "team": "Napoli",
+      "player_id": "1005165",
+      "name": "Giovane",
+      "name_key": "giovane",
+      "profile_url": "https://www.transfermarkt.com/giovane/profil/spieler/1005165",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1005165-1757603428.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1005165.jpg"
+    }
+  ],
+  "RB Leipzig": [
+    {
+      "team": "RB Leipzig",
+      "player_id": "486046",
+      "name": "Maarten Vandevoordt",
+      "name_key": "maartenvandevoordt",
+      "profile_url": "https://www.transfermarkt.com/maarten-vandevoordt/profil/spieler/486046",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/486046-1724337345.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-486046.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "160971",
+      "name": "Leopold Zingerle",
+      "name_key": "leopoldzingerle",
+      "profile_url": "https://www.transfermarkt.com/leopold-zingerle/profil/spieler/160971",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/160971-1770713811.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-160971.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "618472",
+      "name": "Castello Lukeba",
+      "name_key": "castellolukeba",
+      "profile_url": "https://www.transfermarkt.com/castello-lukeba/profil/spieler/618472",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/618472-1713897532.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-618472.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "787912",
+      "name": "El Chadaille Bitshiabu",
+      "name_key": "elchadaillebitshiabu",
+      "profile_url": "https://www.transfermarkt.com/el-chadaille-bitshiabu/profil/spieler/787912",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/787912-1672304780.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-787912.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "93740",
+      "name": "Willi Orbán",
+      "name_key": "williorban",
+      "profile_url": "https://www.transfermarkt.com/willi-orban/profil/spieler/93740",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/93740-1724337179.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-93740.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "215599",
+      "name": "Lukas Klostermann",
+      "name_key": "lukasklostermann",
+      "profile_url": "https://www.transfermarkt.com/lukas-klostermann/profil/spieler/215599",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/215599-1724337278.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-215599.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "1006916",
+      "name": "Jonathan Norbye",
+      "name_key": "jonathannorbye",
+      "profile_url": "https://www.transfermarkt.com/jonathan-norbye/profil/spieler/1006916",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1006916-1752230132.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1006916.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "810649",
+      "name": "Max Finkgräfe",
+      "name_key": "maxfinkgrafe",
+      "profile_url": "https://www.transfermarkt.com/max-finkgrafe/profil/spieler/810649",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/810649-1721139640.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-810649.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "327251",
+      "name": "Ridle Baku",
+      "name_key": "ridlebaku",
+      "profile_url": "https://www.transfermarkt.com/ridle-baku/profil/spieler/327251",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/327251-1764846399.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-327251.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "202591",
+      "name": "Benjamin Henrichs",
+      "name_key": "benjaminhenrichs",
+      "profile_url": "https://www.transfermarkt.com/benjamin-henrichs/profil/spieler/202591",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/202591-1715858341.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-202591.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "404950",
+      "name": "Nicolas Seiwald",
+      "name_key": "nicolasseiwald",
+      "profile_url": "https://www.transfermarkt.com/nicolas-seiwald/profil/spieler/404950",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/404950-1716315232.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-404950.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "1279157",
+      "name": "Benno Kaltefleiter",
+      "name_key": "bennokaltefleiter",
+      "profile_url": "https://www.transfermarkt.com/benno-kaltefleiter/profil/spieler/1279157",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1279157-1760627062.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1279157.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "865682",
+      "name": "Ezechiel Banzuzi",
+      "name_key": "ezechielbanzuzi",
+      "profile_url": "https://www.transfermarkt.com/ezechiel-banzuzi/profil/spieler/865682",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/865682-1742827854.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-865682.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "700106",
+      "name": "Brajan Gruda",
+      "name_key": "brajangruda",
+      "profile_url": "https://www.transfermarkt.com/brajan-gruda/profil/spieler/700106",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/700106-1770733562.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-700106.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "324278",
+      "name": "Christoph Baumgartner",
+      "name_key": "christophbaumgartner",
+      "profile_url": "https://www.transfermarkt.com/christoph-baumgartner/profil/spieler/324278",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/324278-1716315718.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-324278.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "952779",
+      "name": "Andrija Maksimovic",
+      "name_key": "andrijamaksimovic",
+      "profile_url": "https://www.transfermarkt.com/andrija-maksimovic/profil/spieler/952779",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/952779-1764846286.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-952779.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "1390649",
+      "name": "Yan Diomande",
+      "name_key": "yandiomande",
+      "profile_url": "https://www.transfermarkt.com/yan-diomande/profil/spieler/1390649",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1390649-1759779499.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1390649.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "894914",
+      "name": "Antonio Nusa",
+      "name_key": "antonionusa",
+      "profile_url": "https://www.transfermarkt.com/antonio-nusa/profil/spieler/894914",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/894914-1724337096.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-894914.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "955448",
+      "name": "Tidiam Gomis",
+      "name_key": "tidiamgomis",
+      "profile_url": "https://www.transfermarkt.com/tidiam-gomis/profil/spieler/955448",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/955448-1736408355.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-955448.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "1235583",
+      "name": "Suleman Sani",
+      "name_key": "sulemansani",
+      "profile_url": "https://www.transfermarkt.com/suleman-sani/profil/spieler/1235583",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1235583-1758621608.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1235583.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "763948",
+      "name": "Ayodele Thomas",
+      "name_key": "ayodelethomas",
+      "profile_url": "https://www.transfermarkt.com/ayodele-thomas/profil/spieler/763948",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/763948-1727814145.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-763948.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "565424",
+      "name": "Johan Bakayoko",
+      "name_key": "johanbakayoko",
+      "profile_url": "https://www.transfermarkt.com/johan-bakayoko/profil/spieler/565424",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/565424-1697637209.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-565424.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "957874",
+      "name": "Rômulo",
+      "name_key": "romulo",
+      "profile_url": "https://www.transfermarkt.com/romulo/profil/spieler/957874",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/957874-1761551454.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-957874.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "807386",
+      "name": "Conrad Harder",
+      "name_key": "conradharder",
+      "profile_url": "https://www.transfermarkt.com/conrad-harder/profil/spieler/807386",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/807386-1697191702.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-807386.jpg"
+    },
+    {
+      "team": "RB Leipzig",
+      "player_id": "1380977",
+      "name": "Samba Konaté",
+      "name_key": "sambakonate",
+      "profile_url": "https://www.transfermarkt.com/samba-konate/profil/spieler/1380977",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1380977-1764846026.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1380977.jpg"
+    }
+  ],
+  "Benfica": [
+    {
+      "team": "Benfica",
+      "player_id": "537844",
+      "name": "Anatoliy Trubin",
+      "name_key": "anatoliytrubin",
+      "profile_url": "https://www.transfermarkt.com/anatoliy-trubin/profil/spieler/537844",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/537844-1737497981.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-537844.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "504072",
+      "name": "Samuel Soares",
+      "name_key": "samuelsoares",
+      "profile_url": "https://www.transfermarkt.com/samuel-soares/profil/spieler/504072",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/504072-1749738150.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-504072.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "650568",
+      "name": "António Silva",
+      "name_key": "antoniosilva",
+      "profile_url": "https://www.transfermarkt.com/antonio-silva/profil/spieler/650568",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/650568-1700235534.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-650568.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "504087",
+      "name": "Tomás Araújo",
+      "name_key": "tomasaraujo",
+      "profile_url": "https://www.transfermarkt.com/tomas-araujo/profil/spieler/504087",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/504087-1737497771.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-504087.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "605396",
+      "name": "Samuel Dahl",
+      "name_key": "samueldahl",
+      "profile_url": "https://www.transfermarkt.com/samuel-dahl/profil/spieler/605396",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/605396-1750852807.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-605396.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "1233701",
+      "name": "José Neto",
+      "name_key": "joseneto",
+      "profile_url": "https://www.transfermarkt.com/jose-neto/profil/spieler/1233701",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1233701-1763574790.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1233701.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "519184",
+      "name": "Amar Dedić",
+      "name_key": "amardedic",
+      "profile_url": "https://www.transfermarkt.com/amar-dedic/profil/spieler/519184",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/519184-1758058581.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-519184.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "452607",
+      "name": "Alexander Bah",
+      "name_key": "alexanderbah",
+      "profile_url": "https://www.transfermarkt.com/alexander-bah/profil/spieler/452607",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/452607-1701334276.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-452607.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "611855",
+      "name": "Sidny Lopes Cabral",
+      "name_key": "sidnylopescabral",
+      "profile_url": "https://www.transfermarkt.com/sidny-lopes-cabral/profil/spieler/611855",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/611855-1767966134.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-611855.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "1134199",
+      "name": "Daniel Banjaqui",
+      "name_key": "danielbanjaqui",
+      "profile_url": "https://www.transfermarkt.com/daniel-banjaqui/profil/spieler/1134199",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1134199-1772555829.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1134199.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "735573",
+      "name": "Richard Ríos",
+      "name_key": "richardrios",
+      "profile_url": "https://www.transfermarkt.com/richard-rios/profil/spieler/735573",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/735573-1721090544.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-735573.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "671915",
+      "name": "Enzo Barrenechea",
+      "name_key": "enzobarrenechea",
+      "profile_url": "https://www.transfermarkt.com/enzo-barrenechea/profil/spieler/671915",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/671915-1758058491.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-671915.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "699592",
+      "name": "Manu Silva",
+      "name_key": "manusilva",
+      "profile_url": "https://www.transfermarkt.com/manu-silva/profil/spieler/699592",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/699592-1758716910.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-699592.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "357233",
+      "name": "Leandro Barreiro",
+      "name_key": "leandrobarreiro",
+      "profile_url": "https://www.transfermarkt.com/leandro-barreiro/profil/spieler/357233",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/357233-1750853041.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-357233.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "931415",
+      "name": "João Rego",
+      "name_key": "joaorego",
+      "profile_url": "https://www.transfermarkt.com/joao-rego/profil/spieler/931415",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/931415-1750853573.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-931415.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "670103",
+      "name": "Andreas Schjelderup",
+      "name_key": "andreasschjelderup",
+      "profile_url": "https://www.transfermarkt.com/andreas-schjelderup/profil/spieler/670103",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/670103-1697191976.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-670103.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "303259",
+      "name": "Dodi Lukébakio",
+      "name_key": "dodilukebakio",
+      "profile_url": "https://www.transfermarkt.com/dodi-lukebakio/profil/spieler/303259",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/303259-1657098989.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-303259.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "1000674",
+      "name": "Gianluca Prestianni",
+      "name_key": "gianlucaprestianni",
+      "profile_url": "https://www.transfermarkt.com/gianluca-prestianni/profil/spieler/1000674",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1000674-1750852935.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1000674.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "238055",
+      "name": "Rafa Silva",
+      "name_key": "rafasilva",
+      "profile_url": "https://www.transfermarkt.com/rafa-silva/profil/spieler/238055",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/238055-1727356372.png?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-238055.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "324503",
+      "name": "Vangelis Pavlidis",
+      "name_key": "vangelispavlidis",
+      "profile_url": "https://www.transfermarkt.com/vangelis-pavlidis/profil/spieler/324503",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/324503-1737497307.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-324503.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "548028",
+      "name": "Franjo Ivanović",
+      "name_key": "franjoivanovic",
+      "profile_url": "https://www.transfermarkt.com/franjo-ivanovic/profil/spieler/548028",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/548028-1727376769.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-548028.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "1092964",
+      "name": "Anísio Cabral",
+      "name_key": "anisiocabral",
+      "profile_url": "https://www.transfermarkt.com/anisio-cabral/profil/spieler/1092964",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1092964-1772555863.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1092964.jpg"
+    },
+    {
+      "team": "Benfica",
+      "player_id": "617267",
+      "name": "Henrique Araújo",
+      "name_key": "henriquearaujo",
+      "profile_url": "https://www.transfermarkt.com/henrique-araujo/profil/spieler/617267",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/617267-1749738879.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-617267.jpg"
+    }
+  ],
+  "Porto": [
+    {
+      "team": "Porto",
+      "player_id": "155396",
+      "name": "Cláudio Ramos",
+      "name_key": "claudioramos",
+      "profile_url": "https://www.transfermarkt.com/claudio-ramos/profil/spieler/155396",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/155396-1606395113.png?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-155396.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "198638",
+      "name": "João Costa",
+      "name_key": "joaocosta",
+      "profile_url": "https://www.transfermarkt.com/joao-costa/profil/spieler/198638",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/198638-1743697922.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-198638.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "425918",
+      "name": "Jakub Kiwior",
+      "name_key": "jakubkiwior",
+      "profile_url": "https://www.transfermarkt.com/jakub-kiwior/profil/spieler/425918",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/425918-1683101307.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-425918.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "243028",
+      "name": "Jan Bednarek",
+      "name_key": "janbednarek",
+      "profile_url": "https://www.transfermarkt.com/jan-bednarek/profil/spieler/243028",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/243028-1709158468.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-243028.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "921533",
+      "name": "Dominik Prpić",
+      "name_key": "dominikprpic",
+      "profile_url": "https://www.transfermarkt.com/dominik-prpic/profil/spieler/921533",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/921533-1758830918.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-921533.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "29241",
+      "name": "Thiago Silva",
+      "name_key": "thiagosilva",
+      "profile_url": "https://www.transfermarkt.com/thiago-silva/profil/spieler/29241",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/29241-1661856081.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-29241.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "478365",
+      "name": "Francisco Moura",
+      "name_key": "franciscomoura",
+      "profile_url": "https://www.transfermarkt.com/francisco-moura/profil/spieler/478365",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/478365-1758830803.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-478365.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "544784",
+      "name": "Zaidu Sanusi",
+      "name_key": "zaidusanusi",
+      "profile_url": "https://www.transfermarkt.com/zaidu-sanusi/profil/spieler/544784",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/544784-1758829993.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-544784.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "877139",
+      "name": "Alberto Costa",
+      "name_key": "albertocosta",
+      "profile_url": "https://www.transfermarkt.com/alberto-costa/profil/spieler/877139",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/877139-1739281459.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-877139.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "756990",
+      "name": "Alan Varela",
+      "name_key": "alanvarela",
+      "profile_url": "https://www.transfermarkt.com/alan-varela/profil/spieler/756990",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/756990-1758829907.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-756990.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "370791",
+      "name": "Pablo Rosario",
+      "name_key": "pablorosario",
+      "profile_url": "https://www.transfermarkt.com/pablo-rosario/profil/spieler/370791",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/370791-1739972016.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-370791.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "926993",
+      "name": "Victor Froholdt",
+      "name_key": "victorfroholdt",
+      "profile_url": "https://www.transfermarkt.com/victor-froholdt/profil/spieler/926993",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/926993-1707862051.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-926993.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "182893",
+      "name": "Seko Fofana",
+      "name_key": "sekofofana",
+      "profile_url": "https://www.transfermarkt.com/seko-fofana/profil/spieler/182893",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/182893-1653394911.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-182893.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "957653",
+      "name": "Rodrigo Mora",
+      "name_key": "rodrigomora",
+      "profile_url": "https://www.transfermarkt.com/rodrigo-mora/profil/spieler/957653",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/957653-1758830632.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-957653.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "699704",
+      "name": "Gabri Veiga",
+      "name_key": "gabriveiga",
+      "profile_url": "https://www.transfermarkt.com/gabri-veiga/profil/spieler/699704",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/699704-1664178820.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-699704.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "634461",
+      "name": "Borja Sainz",
+      "name_key": "borjasainz",
+      "profile_url": "https://www.transfermarkt.com/borja-sainz/profil/spieler/634461",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/634461-1666968176.png?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-634461.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "1004725",
+      "name": "William Gomes",
+      "name_key": "williamgomes",
+      "profile_url": "https://www.transfermarkt.com/william-gomes/profil/spieler/1004725",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1004725-1758830735.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1004725.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "520662",
+      "name": "Pepê",
+      "name_key": "pepe",
+      "profile_url": "https://www.transfermarkt.com/pepe/profil/spieler/520662",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/520662-1758830033.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-520662.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "1083389",
+      "name": "André Miranda",
+      "name_key": "andremiranda",
+      "profile_url": "https://www.transfermarkt.com/andre-miranda/profil/spieler/1083389",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/default.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1083389.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "538874",
+      "name": "Terem Moffi",
+      "name_key": "teremmoffi",
+      "profile_url": "https://www.transfermarkt.com/terem-moffi/profil/spieler/538874",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/538874-1756824426.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-538874.jpg"
+    },
+    {
+      "team": "Porto",
+      "player_id": "1063292",
+      "name": "Deniz Gül",
+      "name_key": "denizgul",
+      "profile_url": "https://www.transfermarkt.com/deniz-gul/profil/spieler/1063292",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/medium/1063292-1723542552.jpg?lm=1",
+      "local_image": "/home/clarolab/prolog/frontend/assets/players/tm-1063292.jpg"
+    }
+  ]
+}
