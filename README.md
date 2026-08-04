@@ -292,6 +292,26 @@ subconjunto(Xs, [_|Ys]) :- subconjunto(Xs, Ys).
 
 ---
 
+## λ Complemento Funcional (Racket)
+
+Para cubrir explícitamente contenidos del paradigma funcional del programa de la materia, se incluye:
+
+- `functional/funcional_racket.rkt`
+
+Este archivo muestra:
+- funciones puras sobre estructuras de datos,
+- recursión y plegados (`foldl`),
+- funciones de orden superior (`map`, `filter`, `sort`),
+- y composición de transformaciones para recomendaciones simples.
+
+Ejecutar:
+
+```bash
+racket functional/funcional_racket.rkt
+```
+
+---
+
 ## 📊 Ejemplos de Ejecución
 
 ### Ejemplo 1: Verificar Fichaje
@@ -548,6 +568,7 @@ Posibles mejoraciones al sistema:
 - **SWI-Prolog Documentation**: https://www.swi-prolog.org/pldoc/
 - **Learn Prolog Now!**: http://www.learnprolognow.org/
 - **Programming in Prolog** (Clocksin & Mellish)
+- **Revisión contra programa de la materia (UNNOBA)**: `docs/REVISION_PROGRAMA_UNNOBA.md`
 
 ---
 

@@ -165,19 +165,6 @@ todos_pueden_firmar([Jugador|Resto], Equipo) :-
     todos_pueden_firmar(Resto, Equipo).
 
 % ----------------------------------------------------------------------------
-% PREDICADO: combinacion_valida/2
-% ----------------------------------------------------------------------------
-% Verifica si una combinación de jugadores es válida para un equipo:
-% - Todos pueden ser firmados
-% - Respetan el presupuesto
-% - Respetan el cupo de extranjeros
-
-combinacion_valida(ListaJugadores, Equipo) :-
-    todos_pueden_firmar(ListaJugadores, Equipo),
-    cabe_en_presupuesto(ListaJugadores, Equipo),
-    respeta_cupo_extranjeros(ListaJugadores, Equipo).
-
-% ----------------------------------------------------------------------------
 % PREDICADO: combinacion_optima/2
 % ----------------------------------------------------------------------------
 % Genera combinaciones óptimas de fichajes para un equipo.
@@ -340,7 +327,7 @@ quimica_entre(Jugador1, Jugador2, Puntuacion) :-
     Nacionalidad1 = Nacionalidad2,
     Jugador1 \= Jugador2,
     Puntuacion = 3, !.
-quimica_entre(Jugador1, Jugador2, 0).
+quimica_entre(_, _, 0).
 
 % Calcula la química total de una lista de jugadores
 % Suma la química entre todos los pares
@@ -384,14 +371,6 @@ combinacion_valida(ListaJugadores, Equipo) :-
     cabe_en_presupuesto(ListaJugadores, Equipo),
     respeta_cupo_extranjeros(ListaJugadores, Equipo),
     cumple_reglas_liga(ListaJugadores, Equipo).
-
-% ----------------------------------------------------------------------------
-% PREDICADO ACTUALIZADO: combinacion_optima/2
-% ----------------------------------------------------------------------------
-% Ahora considera rendimiento con química
-
-combinacion_optima(Equipo, ListaJugadores) :-
-    combinacion_optima_filtrada_rapida(Equipo, [], 12, 4, ListaJugadores).
 
 % ----------------------------------------------------------------------------
 % PREDICADOS ADICIONALES: CONSULTAS CON QUÍMICA Y RESTRICCIONES
