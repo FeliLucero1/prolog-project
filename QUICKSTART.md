@@ -43,3 +43,19 @@ swipl
 - Presiona `.` o Enter para aceptar una solución
 - Usa `halt.` para salir de SWI-Prolog
 
+## Verificación rápida antes de entregar
+
+```bash
+# Sintaxis base
+swipl -q -f test_sintaxis.pl -t halt
+
+# Tests lógicos (plunit)
+swipl -q -f tests/prolog_logic_tests.pl -g run_tests -t halt
+
+# Tests bridge Python-Prolog
+python3 -m unittest tests/test_prolog_bridge.py -v
+
+# Benchmark simple de consultas
+python3 benchmarks/run_benchmarks.py
+```
+

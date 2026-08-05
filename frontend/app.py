@@ -196,6 +196,35 @@ def rival_exclusions(team: str, players: list[str], enabled: bool) -> list[str]:
     return [player for player in players if is_rival_player(team, player)]
 
 
+def build_signing_explanation(
+    team: str,
+    player: str,
+    breakdown: dict,
+    overview: dict,
+    allowed: bool,
+    rival_flag: bool,
+) -> list[str]:
+    budget = int(overview.get("presupuesto", 0))
+    price = int(breakdown.get("precio", 0))
+    remaining = budget - price
+    needed_positions = overview.get("necesidades", [])
+    position = str(breakdown.get("posicion", "n/d"))
+
+    notes = [
+        f"Presupuesto: {price} M€ {'<=' if breakdown['puede_pagar'] else '>'} {budget} M€ (restante estimado: {remaining} M€).",
+        f"Posición: {position} {'sí' if breakdown['cubre_posicion'] else 'no'} está dentro de necesidades {needed_positions}.",
+        f"Edad: {'cumple' if breakdown['cumple_edad'] else 'no cumple'} restricciones del equipo.",
+        f"Rivalidad: {'excluido por política de rivales' if rival_flag else 'sin bloqueo por rivalidad'}.",
+    ]
+    if allowed and not rival_flag:
+        notes.append(f"Veredicto: {team} puede fichar a {player} con las reglas actuales.")
+    elif allowed and rival_flag:
+        notes.append("Veredicto: lógicamente viable, pero bloqueado por filtro de rivales del frontend.")
+    else:
+        notes.append(f"Veredicto: {team} no puede fichar a {player} con las restricciones actuales.")
+    return notes
+
+
 def team_selector_options(prolog_teams: list[str], squads: dict[str, list[dict]]) -> list[str]:
     ranked = [item["team"] for item in TOP20_TEAMS]
     seen = set()
@@ -262,7 +291,7 @@ def render_top20_teams_and_elite_players(use_real_photos: bool) -> None:
         "Listado curado para demo académica, apoyado en referencias públicas de Transfermarkt y rankings de rendimiento reciente."
     )
     df = pd.DataFrame(TOP20_TEAMS)
-    st.dataframe(df, hide_index=True, use_container_width=True)
+    st.dataframe(df, hide_index=True, width="stretch")
     st.markdown("#### Vista visual de equipos")
     for item in TOP20_TEAMS:
         logo = team_logo_src(item["team"])
@@ -347,6 +376,7 @@ def main() -> None:
             st.markdown(f'<img class="logo" src="{logo_src}" />', unsafe_allow_html=True)
         use_real_photos = st.toggle("Usar fotos locales reales", value=True)
         exclude_rivals = st.toggle("Excluir jugadores de rivales", value=True)
+        explain_mode = st.toggle("Modo explicación académica", value=True)
         if st.button("Limpiar caché y refrescar"):
             st.cache_data.clear()
             st.rerun()
@@ -413,7 +443,7 @@ def main() -> None:
         else:
             st.markdown("### Evaluar un fichaje")
             selected = st.selectbox("Jugador", players)
-            if st.button("Analizar fichaje", use_container_width=True):
+            if st.button("Analizar fichaje", width="stretch"):
                 breakdown = signing_breakdown(team, selected)
                 allowed = can_sign(team, selected)
                 rival_flag = selected in excluded
@@ -429,6 +459,22 @@ def main() -> None:
                 b1.write(f"- Posición: {'✅' if breakdown['cubre_posicion'] else '❌'}")
                 b2.write(f"- Edad: {'✅' if breakdown['cumple_edad'] else '❌'}")
                 b2.write(f"- Rivalidad: {'❌' if rival_flag else '✅'}")
+
+                if explain_mode:
+                    st.markdown("#### Explicación formal de la decisión")
+                    overview = load_team_overview(team)
+                    explanation = build_signing_explanation(
+                        team=team,
+                        player=selected,
+                        breakdown=breakdown,
+                        overview=overview,
+                        allowed=allowed,
+                        rival_flag=rival_flag,
+                    )
+                    for line in explanation:
+                        st.write(f"- {line}")
+                    with st.expander("Detalle técnico (JSON)"):
+                        st.json({"overview": overview, "breakdown": breakdown, "allowed": allowed, "rival_filter": rival_flag})
 
             st.markdown("### Mejor fichaje sugerido")
             best = best_signing_filtered(team, excluded) if excluded else load_best_signing(team)

@@ -52,6 +52,14 @@ Para dejar todo listo para entregar:
 5. La portada de la app resume el proyecto; las pestañas permiten demostrar scouting, recomendaciones, combinación óptima, conocimiento y galería de jugadores.
 6. El selector principal de equipo incluye el **Top 20 de clubes** y muestra la plantilla del equipo seleccionado con fotos y logos en local (siempre que se haya ejecutado `prepare_assets.py`).
 7. Para equipos modelados en Prolog (como `Real Madrid`, `Barcelona`, `Manchester City`, `Bayern Munich`, `PSG`, `Liverpool`) se habilitan además análisis lógicos completos (fichaje, recomendaciones y combinación óptima).
+8. Activar el **Modo explicación académica** en la barra lateral para justificar decisiones de fichaje con trazabilidad.
+9. Ejecutar chequeo final:
+   ```bash
+   swipl -q -f test_sintaxis.pl -t halt
+   swipl -q -f tests/prolog_logic_tests.pl -g run_tests -t halt
+   python3 -m unittest tests/test_prolog_bridge.py -v
+   python3 benchmarks/run_benchmarks.py
+   ```
 
 ---
 
@@ -512,6 +520,26 @@ costo_total([Jugador|Resto], CostoTotal) :-
    ?- combinacion_valida(['Erling Haaland', 'Pedri'], 'Real Madrid').
    ```
 
+### Suite automática (recomendada para entrega)
+
+```bash
+# Validación sintáctica base
+swipl -q -f test_sintaxis.pl -t halt
+
+# Tests lógicos en Prolog (plunit)
+swipl -q -f tests/prolog_logic_tests.pl -g run_tests -t halt
+
+# Tests del bridge Python-Prolog
+python3 -m unittest tests/test_prolog_bridge.py -v
+
+# Benchmark reproducible de consultas
+python3 benchmarks/run_benchmarks.py
+```
+
+Resultados de benchmark:
+- `benchmarks/latest_benchmark.csv`
+- `benchmarks/latest_benchmark.md`
+
 ---
 
 ## ⚡ Funcionalidades Avanzadas
@@ -569,6 +597,7 @@ Posibles mejoraciones al sistema:
 - **Learn Prolog Now!**: http://www.learnprolognow.org/
 - **Programming in Prolog** (Clocksin & Mellish)
 - **Revisión contra programa de la materia (UNNOBA)**: `docs/REVISION_PROGRAMA_UNNOBA.md`
+- **Checklist de defensa final**: `docs/CHECKLIST_DEFENSA_FINAL.md`
 
 ---
 
