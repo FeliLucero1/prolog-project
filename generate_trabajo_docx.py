@@ -106,8 +106,10 @@ def main() -> None:
             "desalineación de datos. Los resultados muestran que el enfoque declarativo facilita expresar "
             "criterios complejos con alta trazabilidad y buena mantenibilidad. En síntesis, el proyecto "
             "demuestra la aplicabilidad de la programación lógica para problemas reales de optimización "
-            "combinatoria y apoyo a decisiones, articulando fundamentos teóricos del paradigma con una "
-            "implementación usable para demostración académica y potencial extensión profesional [1], [2], [4]."
+            "combinatoria y apoyo a decisiones. Además, incorpora una implementación funcional comparativa en "
+            "Racket/Scheme para resolver consultas equivalentes y contrastar estilos de modelado declarativo, "
+            "articulando fundamentos teóricos de ambos paradigmas con una implementación usable para "
+            "demostración académica [1], [2], [4], [8]."
         ],
     )
 
@@ -125,7 +127,8 @@ def main() -> None:
             "qué combinación maximiza un criterio de rendimiento bajo restricciones. El objetivo no es reemplazar "
             "la decisión humana, sino asistirla con una herramienta explicable y reproducible.",
             "La relevancia académica del tema radica en conectar conceptos centrales de la asignatura —hechos, "
-            "reglas, unificación, búsqueda, backtracking, recursión— con un dominio real y de alto interés. "
+            "reglas, unificación, búsqueda, backtracking, recursión y funciones de orden superior— con un "
+            "dominio real y de alto interés. "
             "Desde una perspectiva aplicada, también se trabaja la ingeniería del sistema: separación modular, "
             "documentación, pruebas básicas y una interfaz de usuario que permita comunicar resultados a "
             "personas no técnicas.",
@@ -152,6 +155,10 @@ def main() -> None:
             "soluciones posibles. En problemas de selección de plantillas o fichajes, esto habilita una "
             "representación natural de cupos, límites y condiciones contextuales. Además, la recursión facilita "
             "el procesamiento de listas para cálculos agregados (coste total, rendimiento total, conteos) [3].",
+            "En paralelo, el enfoque funcional (Racket/Scheme) permite representar el mismo dominio mediante "
+            "estructuras inmutables y pipelines de transformación (`map`, `filter`, `foldl`), con control "
+            "explícito de la estrategia de búsqueda. Esta dualidad habilita una comparación didáctica directa "
+            "entre paradigmas de la materia [8].",
             "Finalmente, para la capa de interacción, una interfaz web no reemplaza la lógica, sino que actúa "
             "como traductor entre usuario y consultas Prolog. Una buena interfaz debe preservar trazabilidad, "
             "mostrar resultados explicables y manejar errores de forma robusta [7].",
@@ -226,6 +233,39 @@ def main() -> None:
         ],
     )
 
+    add_heading(doc, "5.6 Implementación comparativa funcional (Racket/Scheme)", level=2)
+    add_paragraphs(
+        doc,
+        [
+            "Para cubrir explícitamente el componente funcional de la asignatura, se implementó un módulo en "
+            "Racket que resuelve consultas equivalentes al modelo Prolog: viabilidad de fichaje, recomendaciones, "
+            "mejor fichaje y combinación óptima acotada. El modelo funcional utiliza datos inmutables (`struct`), "
+            "funciones puras y funciones de orden superior.",
+            "A diferencia de Prolog, donde la búsqueda y el backtracking son responsabilidad del motor de "
+            "inferencia, en Racket la estrategia es explícita: generación recursiva de subconjuntos, filtros "
+            "de validez y selección por criterio de rendimiento. Esto permite comparar no solo rendimiento, "
+            "sino también claridad semántica, esfuerzo de implementación y control algorítmico.",
+            "Como evidencia de calidad, el módulo funcional incorpora pruebas con `rackunit` y una demo de "
+            "consola orientada a exposición académica. De este modo, el trabajo deja de ser exclusivamente "
+            "lógico y pasa a ser efectivamente comparativo entre paradigmas declarativos.",
+        ],
+    )
+
+    add_heading(doc, "5.7 Síntesis comparativa entre paradigmas", level=2)
+    add_paragraphs(
+        doc,
+        [
+            "En Prolog, la principal ventaja observada es la concisión para expresar restricciones y relaciones: "
+            "la pregunta de negocio se traduce en predicados y el motor explora soluciones. En Racket/Scheme, "
+            "la ventaja está en el control explícito de transformaciones y composición funcional, favoreciendo "
+            "modularidad y trazabilidad del flujo de datos.",
+            "La comparación permite concluir que ambos enfoques son válidos para el problema, pero optimizan "
+            "objetivos distintos: Prolog reduce complejidad expresiva en búsqueda relacional; Racket/Scheme "
+            "aumenta control algorítmico en pipelines determinísticos. Esta complementariedad refleja con "
+            "fidelidad los objetivos formativos de Programación Lógica y Funcional.",
+        ],
+    )
+
     add_heading(doc, "6) Conclusiones")
     add_paragraphs(
         doc,
@@ -257,9 +297,10 @@ def main() -> None:
         "[5] Transfermarkt, \"FC Barcelona - Club profile,\" 2026. [Online]. Available: https://www.transfermarkt.com/fc-barcelona/startseite/verein/131",
         "[6] EA Sports, \"EA Sports FC Player Ratings,\" 2026. [Online]. Available: https://www.ea.com/games/ea-sports-fc/ratings",
         "[7] Streamlit, \"Streamlit Documentation,\" 2026. [Online]. Available: https://docs.streamlit.io/",
-        "[8] M. Wooldridge, An Introduction to MultiAgent Systems, 2nd ed. Chichester, UK: Wiley, 2009.",
-        "[9] S. Russell and P. Norvig, Artificial Intelligence: A Modern Approach, 4th ed. Hoboken, NJ, USA: Pearson, 2021.",
-        "[10] FIFA, \"Regulations on the Status and Transfer of Players,\" 2026. [Online]. Available: https://www.fifa.com/legal",
+        "[8] Racket Documentation, \"The Racket Guide,\" 2026. [Online]. Available: https://docs.racket-lang.org/guide/",
+        "[9] M. Wooldridge, An Introduction to MultiAgent Systems, 2nd ed. Chichester, UK: Wiley, 2009.",
+        "[10] S. Russell and P. Norvig, Artificial Intelligence: A Modern Approach, 4th ed. Hoboken, NJ, USA: Pearson, 2021.",
+        "[11] FIFA, \"Regulations on the Status and Transfer of Players,\" 2026. [Online]. Available: https://www.fifa.com/legal",
     ]
     for ref in refs:
         p = doc.add_paragraph(ref)

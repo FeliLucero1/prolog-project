@@ -57,5 +57,9 @@ python3 -m unittest tests/test_prolog_bridge.py -v
 
 # Benchmark simple de consultas
 python3 benchmarks/run_benchmarks.py
+
+# (Opcional) Validar parte funcional comparativa
+racket functional/funcional_racket.rkt
+raco test functional/funcional_racket.rkt
 ```
 

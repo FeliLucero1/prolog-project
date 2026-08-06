@@ -33,15 +33,15 @@
 ### Unidad IV y V (Paradigma y programación funcional)
 
 **Cobertura previa:** Baja (solo mención conceptual en README).  
-**Cobertura actual:** Media, con soporte práctico agregado.
+**Cobertura actual:** Media/Alta, con implementación funcional comparativa explícita.
 
-- Se incorporó `functional/funcional_racket.rkt` con:
-  - funciones puras,
-  - listas,
-  - recursión/fold,
-  - funciones de orden superior (`map`, `filter`, `sort`),
-  - composición para recomendación.
-- Esto reduce riesgo de que el trabajo quede "solo Prolog" ante un tribunal que espere evidencia de ambos paradigmas.
+- `functional/funcional_racket.rkt` ahora incluye:
+  - modelado funcional de jugadores/equipos,
+  - equivalentes de `puede_firmar`, `recomendar`, `mejor_fichaje` y combinación óptima,
+  - funciones de orden superior (`map`, `filter`, `foldl`, `sort`),
+  - recursión explícita para generación de subconjuntos,
+  - menú interactivo y tests (`rackunit`).
+- Se agregó `docs/COMPARATIVA_PROLOG_RACKET.md` para justificar formalmente el enfoque comparativo entre paradigmas.
 
 ## 3) Hallazgos críticos detectados y corregidos
 
@@ -75,8 +75,8 @@
 ## 5) Riesgo académico residual (y cómo mitigarlo)
 
 1. **Predominio de parte lógica sobre la funcional**
-   - Mitigación aplicada: archivo funcional en Racket + documentación.
-   - Recomendación de defensa: mostrar en vivo una ejecución de Prolog y otra de Racket.
+   - Mitigación aplicada: implementación funcional ampliada + documento comparativo formal.
+   - Recomendación de defensa: mostrar en vivo una ejecución de Prolog y otra de Racket con equivalencias directas.
 
 2. **Dependencia parcial de scraping externo para assets**
    - Mitigación aplicada: almacenamiento local en `frontend/assets`.
@@ -85,6 +85,6 @@
 ## 6) Conclusión
 
 El proyecto **sí es defendible** para la asignatura y aplica de forma clara los contenidos centrales de programación lógica.  
-Tras las correcciones realizadas, también queda mejor cubierto el componente funcional exigido por el programa.
+Tras las correcciones y la ampliación funcional comparativa, el componente funcional también queda cubierto de forma explícita y argumentable en evaluación final.
 
 En su estado actual, el trabajo es **mucho menos cuestionable** técnica y académicamente que antes de esta revisión.

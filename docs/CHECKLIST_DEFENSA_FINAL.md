@@ -11,6 +11,9 @@
   - `python3 -m unittest tests/test_prolog_bridge.py -v`
 - [ ] Correr benchmark local:
   - `python3 benchmarks/run_benchmarks.py`
+- [ ] Validar componente funcional comparativo (Racket):
+  - `racket functional/funcional_racket.rkt`
+  - `raco test functional/funcional_racket.rkt`
 - [ ] Levantar frontend:
   - `streamlit run frontend/app.py --server.port 8501`
 
@@ -31,9 +34,11 @@
 4. **Restricciones y química**  
    Mostrar efecto de presupuesto, edad, posición y química.
 
-5. **Complemento funcional**  
-   Ejecutar: `racket functional/funcional_racket.rkt`
-   y remarcar uso de `map/filter/sort/fold`.
+5. **Implementación funcional comparativa (Racket/Scheme)**  
+   Ejecutar:
+   - `racket functional/funcional_racket.rkt`
+   - `raco test functional/funcional_racket.rkt`
+   y mapear equivalencias con Prolog (`puede_firmar` ↔ `puede-firmar?`, etc.).
 
 6. **Evidencia cuantitativa**  
    Mostrar `benchmarks/latest_benchmark.md`.
@@ -56,6 +61,7 @@
 
 - `README.md`
 - `docs/REVISION_PROGRAMA_UNNOBA.md`
+- `docs/COMPARATIVA_PROLOG_RACKET.md`
 - `docs/CHECKLIST_DEFENSA_FINAL.md`
 - `Trabajo_Final_Prolog.docx`
 - `benchmarks/latest_benchmark.md`

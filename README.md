@@ -305,18 +305,24 @@ subconjunto(Xs, [_|Ys]) :- subconjunto(Xs, Ys).
 Para cubrir explícitamente contenidos del paradigma funcional del programa de la materia, se incluye:
 
 - `functional/funcional_racket.rkt`
+- `docs/COMPARATIVA_PROLOG_RACKET.md`
 
-Este archivo muestra:
-- funciones puras sobre estructuras de datos,
-- recursión y plegados (`foldl`),
-- funciones de orden superior (`map`, `filter`, `sort`),
-- y composición de transformaciones para recomendaciones simples.
+Este módulo funcional ahora implementa una versión comparativa real del problema:
+- `puede-firmar?`, `recomendaciones`, `mejor-fichaje`, `comb-valida?`, `mejor-combinacion`
+- modelado inmutable de datos (`struct jugador`, `struct equipo`)
+- recursión explícita (`subconjuntos`) + funciones de orden superior (`map`, `filter`, `foldl`, `sort`)
+- menú interactivo de consola para demo
+- tests con `rackunit` (`raco test`)
 
 Ejecutar:
 
 ```bash
 racket functional/funcional_racket.rkt
+raco test functional/funcional_racket.rkt
 ```
+
+> Si `racket` no está instalado:
+> - Ubuntu/Debian: `sudo apt install racket`
 
 ---
 
@@ -371,7 +377,7 @@ Restante = 75.
 
 ---
 
-## 🔄 Comparación Conceptual: Prolog vs Haskell
+## 🔄 Comparación Conceptual: Prolog vs enfoque funcional (Racket/Scheme)
 
 ### Paradigma Declarativo
 
@@ -383,10 +389,10 @@ Ambos lenguajes son **declarativos**, pero con enfoques diferentes:
 - **Unificación**: Variables se instancian automáticamente
 - **Búsqueda completa**: Encuentra todas las soluciones posibles
 
-#### Haskell
+#### Racket/Scheme
 - **Programación funcional**: Basada en funciones y transformaciones
-- **Evaluación perezosa**: Calcula solo lo necesario
-- **Tipado estático**: Garantías en tiempo de compilación
+- **Evaluación estricta**: Flujo de evaluación explícito
+- **Tipado dinámico**: Flexibilidad para prototipado académico
 - **Inmutabilidad**: Los datos no se modifican
 
 ### Ejemplo Conceptual: Filtrado de Jugadores
@@ -403,12 +409,12 @@ puede_firmar(Equipo, Jugador) :-
 - **Bidireccional**: Puede encontrar jugadores para un equipo o equipos para un jugador
 - **Backtracking**: Encuentra todas las soluciones automáticamente
 
-#### En Haskell (conceptual):
-```haskell
-puedeFirmar :: Equipo -> Jugador -> Bool
-puedeFirmar equipo jugador = 
-    puedePagar equipo jugador && 
-    juegaPosicionNecesaria jugador equipo
+#### En Racket (funcional):
+```racket
+(define (puede-firmar? eq j)
+  (and (puede-pagar? eq j)
+       (cubre-necesidad? eq j)
+       (cumple-edad? eq j)))
 ```
 
 **Características:**
@@ -423,7 +429,7 @@ puedeFirmar equipo jugador =
 3. **Backtracking integrado**: Explora el espacio de soluciones automáticamente
 4. **Modelado natural**: Las relaciones se expresan de forma intuitiva
 
-### Ventajas de Haskell para este Dominio
+### Ventajas del enfoque funcional (Racket/Scheme) para este dominio
 
 1. **Tipado fuerte**: Previene errores en tiempo de compilación
 2. **Composabilidad**: Funciones pequeñas se combinan fácilmente
@@ -432,7 +438,7 @@ puedeFirmar equipo jugador =
 
 ### Conclusión
 
-**Prolog** es ideal para problemas de **búsqueda y restricciones** donde necesitamos explorar múltiples soluciones. **Haskell** es mejor para **transformaciones de datos** y **cálculos determinísticos**. Este proyecto aprovecha las fortalezas de Prolog para modelar un problema de optimización combinatoria.
+**Prolog** es ideal para problemas de **búsqueda y restricciones** donde necesitamos explorar múltiples soluciones. El enfoque funcional en **Racket/Scheme** es fuerte para **transformaciones de datos**, composición y control explícito de estrategia. Este proyecto utiliza ambos enfoques de forma comparativa para cubrir los contenidos de la materia.
 
 ---
 
@@ -596,8 +602,10 @@ Posibles mejoraciones al sistema:
 - **SWI-Prolog Documentation**: https://www.swi-prolog.org/pldoc/
 - **Learn Prolog Now!**: http://www.learnprolognow.org/
 - **Programming in Prolog** (Clocksin & Mellish)
+- **Racket Documentation**: https://docs.racket-lang.org/
 - **Revisión contra programa de la materia (UNNOBA)**: `docs/REVISION_PROGRAMA_UNNOBA.md`
 - **Checklist de defensa final**: `docs/CHECKLIST_DEFENSA_FINAL.md`
+- **Comparativa formal Prolog vs Racket**: `docs/COMPARATIVA_PROLOG_RACKET.md`
 
 ---
 
@@ -620,5 +628,5 @@ Inspirado en el repositorio de referencia:
 
 ---
 
-**Última actualización:** 2024
+**Última actualización:** 2026
 
