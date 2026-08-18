@@ -206,6 +206,32 @@ def signing_breakdown(team: str, player: str) -> dict[str, Any]:
     return _run_prolog_json(goal)
 
 
+def analyze_combination(team: str, players: list[str]) -> dict[str, Any]:
+    if not players:
+        return {"encontrada": False, "motivo": "lista_vacia"}
+
+    team_atom = _quote_atom(team)
+    prolog_list = _list_as_prolog(players)
+    goal = (
+        f"Lista={prolog_list},"
+        f"costo_total(Lista,Costo),"
+        f"rendimiento_total(Lista,RBase),"
+        f"rendimiento_con_quimica(Lista,RMejorado),"
+        f"contar_extranjeros(Lista,{team_atom},Extranjeros),"
+        f"(todos_pueden_firmar(Lista,{team_atom}) -> TodosPueden=true ; TodosPueden=false),"
+        f"(cabe_en_presupuesto(Lista,{team_atom}) -> PresupuestoOk=true ; PresupuestoOk=false),"
+        f"(respeta_cupo_extranjeros(Lista,{team_atom}) -> CupoOk=true ; CupoOk=false),"
+        f"(cumple_reglas_liga(Lista,{team_atom}) -> LigaOk=true ; LigaOk=false),"
+        f"(combinacion_valida(Lista,{team_atom}) -> Valida=true ; Valida=false),"
+        "json_write_dict(current_output,_{"
+        "encontrada:true,jugadores:Lista,costo:Costo,rendimiento_base:RBase,"
+        "rendimiento_mejorado:RMejorado,extranjeros:Extranjeros,"
+        "todos_pueden_firmar:TodosPueden,presupuesto_ok:PresupuestoOk,"
+        "cupo_ok:CupoOk,liga_ok:LigaOk,valida:Valida})"
+    )
+    return _run_prolog_json(goal)
+
+
 def chemistry_between(player_a: str, player_b: str) -> int:
     a_atom = _quote_atom(player_a)
     b_atom = _quote_atom(player_b)

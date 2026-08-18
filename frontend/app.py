@@ -10,6 +10,7 @@ import streamlit as st
 
 from prolog_bridge import (
     PrologBridgeError,
+    analyze_combination,
     best_signing,
     best_signing_filtered,
     can_sign,
@@ -196,6 +197,18 @@ def rival_exclusions(team: str, players: list[str], enabled: bool) -> list[str]:
     return [player for player in players if is_rival_player(team, player)]
 
 
+def same_team_exclusions(team: str, players: list[str], enabled: bool) -> list[str]:
+    if not enabled:
+        return []
+    team_normalized = team.strip().lower()
+    blocked: list[str] = []
+    for player in players:
+        club = str(PLAYER_CLUB.get(player, "")).strip().lower()
+        if club and club == team_normalized:
+            blocked.append(player)
+    return blocked
+
+
 def build_signing_explanation(
     team: str,
     player: str,
@@ -203,6 +216,7 @@ def build_signing_explanation(
     overview: dict,
     allowed: bool,
     rival_flag: bool,
+    same_team_flag: bool,
 ) -> list[str]:
     budget = int(overview.get("presupuesto", 0))
     price = int(breakdown.get("precio", 0))
@@ -215,11 +229,12 @@ def build_signing_explanation(
         f"Posición: {position} {'sí' if breakdown['cubre_posicion'] else 'no'} está dentro de necesidades {needed_positions}.",
         f"Edad: {'cumple' if breakdown['cumple_edad'] else 'no cumple'} restricciones del equipo.",
         f"Rivalidad: {'excluido por política de rivales' if rival_flag else 'sin bloqueo por rivalidad'}.",
+        f"Mismo equipo: {'bloqueado (no transferencias internas)' if same_team_flag else 'permitido por origen de club'}.",
     ]
-    if allowed and not rival_flag:
+    if allowed and not rival_flag and not same_team_flag:
         notes.append(f"Veredicto: {team} puede fichar a {player} con las reglas actuales.")
-    elif allowed and rival_flag:
-        notes.append("Veredicto: lógicamente viable, pero bloqueado por filtro de rivales del frontend.")
+    elif allowed and (rival_flag or same_team_flag):
+        notes.append("Veredicto: lógicamente viable en Prolog, pero bloqueado por políticas activas del frontend.")
     else:
         notes.append(f"Veredicto: {team} no puede fichar a {player} con las restricciones actuales.")
     return notes
@@ -376,6 +391,7 @@ def main() -> None:
             st.markdown(f'<img class="logo" src="{logo_src}" />', unsafe_allow_html=True)
         use_real_photos = st.toggle("Usar fotos locales reales", value=True)
         exclude_rivals = st.toggle("Excluir jugadores de rivales", value=True)
+        block_same_team = st.toggle("Bloquear fichajes del mismo equipo", value=True)
         explain_mode = st.toggle("Modo explicación académica", value=True)
         if st.button("Limpiar caché y refrescar"):
             st.cache_data.clear()
@@ -383,9 +399,22 @@ def main() -> None:
 
     prolog_enabled = team in set(prolog_teams)
     tm_players = squads.get(team, [])
-    excluded = rival_exclusions(team, players, exclude_rivals) if prolog_enabled else []
+    rival_blocked = rival_exclusions(team, players, exclude_rivals) if prolog_enabled else []
+    same_team_blocked = same_team_exclusions(team, players, block_same_team) if prolog_enabled else []
+    excluded = sorted(set(rival_blocked + same_team_blocked))
     st.subheader(f"{team} · Panel")
     st.caption("Imágenes en local desde `frontend/assets/players` (sin depender de internet).")
+
+    if prolog_enabled:
+        st.success(
+            "Equipo con modelo Prolog completo: habilita evaluación de fichaje, mejor fichaje, "
+            "simulación multi-jugador y combinación óptima."
+        )
+    else:
+        st.info(
+            "Equipo en modo visual/dataset Top 20: muestra plantilla y métricas visuales, "
+            "sin inferencia lógica completa de Prolog."
+        )
 
     st.markdown(
         f"""
@@ -446,11 +475,18 @@ def main() -> None:
             if st.button("Analizar fichaje", width="stretch"):
                 breakdown = signing_breakdown(team, selected)
                 allowed = can_sign(team, selected)
-                rival_flag = selected in excluded
-                if allowed and not rival_flag:
+                rival_flag = selected in rival_blocked
+                same_team_flag = selected in same_team_blocked
+                blocked_by_policy = rival_flag or same_team_flag
+                if allowed and not blocked_by_policy:
                     st.success(f"{team} puede fichar a {selected}.")
-                elif allowed and rival_flag:
-                    st.warning("Cumple reglas, pero está excluido por rivalidad.")
+                elif allowed and blocked_by_policy:
+                    reasons = []
+                    if rival_flag:
+                        reasons.append("rivalidad")
+                    if same_team_flag:
+                        reasons.append("mismo equipo")
+                    st.warning(f"Cumple reglas, pero está bloqueado por política de: {', '.join(reasons)}.")
                 else:
                     st.error("No cumple las reglas de fichaje.")
 
@@ -459,6 +495,7 @@ def main() -> None:
                 b1.write(f"- Posición: {'✅' if breakdown['cubre_posicion'] else '❌'}")
                 b2.write(f"- Edad: {'✅' if breakdown['cumple_edad'] else '❌'}")
                 b2.write(f"- Rivalidad: {'❌' if rival_flag else '✅'}")
+                b2.write(f"- Mismo equipo: {'❌' if same_team_flag else '✅'}")
 
                 if explain_mode:
                     st.markdown("#### Explicación formal de la decisión")
@@ -470,11 +507,20 @@ def main() -> None:
                         overview=overview,
                         allowed=allowed,
                         rival_flag=rival_flag,
+                        same_team_flag=same_team_flag,
                     )
                     for line in explanation:
                         st.write(f"- {line}")
                     with st.expander("Detalle técnico (JSON)"):
-                        st.json({"overview": overview, "breakdown": breakdown, "allowed": allowed, "rival_filter": rival_flag})
+                        st.json(
+                            {
+                                "overview": overview,
+                                "breakdown": breakdown,
+                                "allowed": allowed,
+                                "rival_filter": rival_flag,
+                                "same_team_filter": same_team_flag,
+                            }
+                        )
 
             st.markdown("### Mejor fichaje sugerido")
             best = best_signing_filtered(team, excluded) if excluded else load_best_signing(team)
@@ -494,6 +540,50 @@ def main() -> None:
                 st.write(", ".join(combo["jugadores"]))
             else:
                 st.warning("No se encontró combinación válida.")
+
+            st.markdown("### Simulador manual (múltiples jugadores)")
+            st.caption(
+                "Permite validar un paquete de fichajes contra presupuesto, cupos y reglas de liga. "
+                "Útil cuando el presupuesto es alto y el análisis de 1 jugador queda corto."
+            )
+            selected_pack = st.multiselect(
+                "Jugadores a evaluar en conjunto",
+                players,
+                default=[],
+                key="manual_pack",
+            )
+            if st.button("Evaluar paquete de fichajes", width="stretch", key="eval_pack"):
+                if not selected_pack:
+                    st.warning("Selecciona al menos un jugador para simular.")
+                else:
+                    blocked_players = [p for p in selected_pack if p in excluded]
+                    evaluation = analyze_combination(team, selected_pack)
+                    if evaluation.get("encontrada"):
+                        c7, c8, c9 = st.columns(3)
+                        c7.metric("Costo total", evaluation["costo"])
+                        c8.metric("Rendimiento base", evaluation["rendimiento_base"])
+                        c9.metric("Rendimiento con química", round(evaluation["rendimiento_mejorado"], 2))
+
+                        checks = [
+                            ("Todos pueden firmar", evaluation.get("todos_pueden_firmar")),
+                            ("Presupuesto", evaluation.get("presupuesto_ok")),
+                            ("Cupo extranjeros", evaluation.get("cupo_ok")),
+                            ("Reglas de liga", evaluation.get("liga_ok")),
+                            ("Combinación válida", evaluation.get("valida")),
+                        ]
+                        for label, ok in checks:
+                            st.write(f"- {label}: {'✅' if ok else '❌'}")
+
+                        if blocked_players:
+                            st.warning(
+                                "Políticas activas del frontend detectan bloqueos en: "
+                                + ", ".join(blocked_players)
+                                + ". La simulación Prolog se muestra igual para análisis académico."
+                            )
+                        else:
+                            st.success("El paquete no tiene bloqueos de políticas en frontend.")
+                    else:
+                        st.error("No se pudo evaluar el paquete seleccionado.")
 
     with tab3:
         if not prolog_enabled:
