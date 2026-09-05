@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import json
 import subprocess
 from pathlib import Path
@@ -67,6 +69,54 @@ def _run_prolog_json(goal: str) -> Any:
 def _list_as_prolog(players: list[str]) -> str:
     items = ",".join(_quote_atom(player) for player in players)
     return f"[{items}]"
+
+
+def format_signing_query(team: str, player: str) -> str:
+    """Consulta Prolog legible para evaluar un fichaje individual."""
+    team_atom = _quote_atom(team)
+    player_atom = _quote_atom(player)
+    return (
+        f"?- puede_firmar({team_atom}, {player_atom}).\n"
+        f"?- puede_pagar({team_atom}, {player_atom}).\n"
+        f"?- juega_posicion_necesaria({player_atom}, {team_atom}).\n"
+        f"?- cumple_restricciones_edad({player_atom}, {team_atom})."
+    )
+
+
+def format_best_signing_query(team: str, excluded_players: list[str] | None = None) -> str:
+    """Consulta Prolog legible para el mejor fichaje sugerido."""
+    team_atom = _quote_atom(team)
+    if excluded_players:
+        sample = excluded_players[:5]
+        sample_atoms = ", ".join(_quote_atom(p) for p in sample)
+        more = len(excluded_players) - len(sample)
+        sample_note = sample_atoms + (f", ... (+{more} más)" if more > 0 else "")
+        return (
+            f"% Mejor fichaje ignorando {len(excluded_players)} jugadores bloqueados\n"
+            f"% por política de frontend (rivales / mismo equipo).\n"
+            f"% Ejemplos de excluidos: [{sample_note}].\n"
+            f"% Esos nombres NO son recomendaciones: se filtran afuera.\n"
+            f"?- mejor_fichaje_filtrado({team_atom}, Excluidos, Jugador)."
+        )
+    return f"?- mejor_fichaje({team_atom}, Jugador)."
+
+
+def format_combination_query(team: str, players: list[str]) -> str:
+    """Consulta Prolog legible para validar un paquete de fichajes."""
+    team_atom = _quote_atom(team)
+    prolog_list = _list_as_prolog(players)
+    return (
+        f"?- Lista = {prolog_list},\n"
+        f"   todos_pueden_firmar(Lista, {team_atom}),\n"
+        f"   cabe_en_presupuesto(Lista, {team_atom}),\n"
+        f"   respeta_cupo_extranjeros(Lista, {team_atom}),\n"
+        f"   cumple_reglas_liga(Lista, {team_atom}),\n"
+        f"   combinacion_valida(Lista, {team_atom}).\n"
+        f"% cumple_reglas_liga/2 descompone en:\n"
+        f"%   respeta_limite_nacionalidad/2,\n"
+        f"%   cumple_cupo_cantera/2,\n"
+        f"%   respeta_limite_edad/2."
+    )
 
 
 def list_teams() -> list[str]:
@@ -218,18 +268,32 @@ def analyze_combination(team: str, players: list[str]) -> dict[str, Any]:
         f"rendimiento_total(Lista,RBase),"
         f"rendimiento_con_quimica(Lista,RMejorado),"
         f"contar_extranjeros(Lista,{team_atom},Extranjeros),"
+        f"contar_cantera(Lista,{team_atom},Cantera),"
         f"(todos_pueden_firmar(Lista,{team_atom}) -> TodosPueden=true ; TodosPueden=false),"
         f"(cabe_en_presupuesto(Lista,{team_atom}) -> PresupuestoOk=true ; PresupuestoOk=false),"
         f"(respeta_cupo_extranjeros(Lista,{team_atom}) -> CupoOk=true ; CupoOk=false),"
+        f"(respeta_limite_nacionalidad(Lista,{team_atom}) -> NacionalidadOk=true ; NacionalidadOk=false),"
+        f"(cumple_cupo_cantera(Lista,{team_atom}) -> CanteraOk=true ; CanteraOk=false),"
+        f"(respeta_limite_edad(Lista,{team_atom}) -> LimiteEdadOk=true ; LimiteEdadOk=false),"
         f"(cumple_reglas_liga(Lista,{team_atom}) -> LigaOk=true ; LigaOk=false),"
         f"(combinacion_valida(Lista,{team_atom}) -> Valida=true ; Valida=false),"
+        f"(cupo_extranjeros({team_atom},CupoMax) -> true ; CupoMax= -1),"
+        f"(cupo_minimo_cantera({team_atom},CanteraMin) -> true ; CanteraMin= -1),"
+        f"(limite_misma_nacionalidad({team_atom},LimNac) -> true ; LimNac= -1),"
         "json_write_dict(current_output,_{"
         "encontrada:true,jugadores:Lista,costo:Costo,rendimiento_base:RBase,"
-        "rendimiento_mejorado:RMejorado,extranjeros:Extranjeros,"
+        "rendimiento_mejorado:RMejorado,extranjeros:Extranjeros,cantera:Cantera,"
         "todos_pueden_firmar:TodosPueden,presupuesto_ok:PresupuestoOk,"
-        "cupo_ok:CupoOk,liga_ok:LigaOk,valida:Valida})"
+        "cupo_ok:CupoOk,nacionalidad_ok:NacionalidadOk,cantera_ok:CanteraOk,"
+        "limite_edad_ok:LimiteEdadOk,liga_ok:LigaOk,valida:Valida,"
+        "cupo_max:CupoMax,cantera_min:CanteraMin,limite_nacionalidad:LimNac})"
     )
-    return _run_prolog_json(goal)
+    data = _run_prolog_json(goal)
+    for key in ("cupo_max", "cantera_min", "limite_nacionalidad"):
+        if data.get(key, -1) < 0:
+            data[key] = None
+    data["consulta"] = format_combination_query(team, players)
+    return data
 
 
 def chemistry_between(player_a: str, player_b: str) -> int:

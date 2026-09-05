@@ -14,6 +14,9 @@ from prolog_bridge import (
     best_signing,
     best_signing_filtered,
     can_sign,
+    format_best_signing_query,
+    format_combination_query,
+    format_signing_query,
     list_players,
     list_teams,
     optimal_combination,
@@ -237,6 +240,84 @@ def build_signing_explanation(
         notes.append("Veredicto: lógicamente viable en Prolog, pero bloqueado por políticas activas del frontend.")
     else:
         notes.append(f"Veredicto: {team} no puede fichar a {player} con las restricciones actuales.")
+    return notes
+
+
+def build_combination_explanation(team: str, evaluation: dict) -> list[str]:
+    """Explica por qué un paquete pasa o falla, con foco en reglas de liga."""
+    notes: list[str] = []
+    extranjeros = evaluation.get("extranjeros")
+    cupo_max = evaluation.get("cupo_max")
+    cantera = evaluation.get("cantera")
+    cantera_min = evaluation.get("cantera_min")
+    lim_nac = evaluation.get("limite_nacionalidad")
+
+    if evaluation.get("todos_pueden_firmar"):
+        notes.append("Todos pueden firmar: cada jugador cumple presupuesto/posición/edad de puede_firmar/2.")
+    else:
+        notes.append("Todos pueden firmar: al menos un jugador no cumple puede_firmar/2.")
+
+    if evaluation.get("presupuesto_ok"):
+        notes.append(f"Presupuesto: costo total {evaluation.get('costo')} M€ cabe en el presupuesto del equipo.")
+    else:
+        notes.append(f"Presupuesto: costo total {evaluation.get('costo')} M€ excede el presupuesto del equipo.")
+
+    if cupo_max is not None:
+        notes.append(
+            f"Cupo extranjeros: {extranjeros}/{cupo_max} "
+            f"({'ok' if evaluation.get('cupo_ok') else 'excedido'})."
+        )
+    else:
+        notes.append(f"Cupo extranjeros: {extranjeros} en el paquete.")
+
+    # Sub-reglas de cumple_reglas_liga/2
+    if evaluation.get("cantera_ok"):
+        if cantera_min is not None:
+            notes.append(f"Cantera (reglas de liga): {cantera}/{cantera_min} nacionales mínimos cumplidos.")
+        else:
+            notes.append("Cantera (reglas de liga): sin mínimo definido para el equipo.")
+    else:
+        if cantera_min is not None:
+            notes.append(
+                f"Cantera (reglas de liga): fallan — hay {cantera} nacionales y se exigen al menos {cantera_min} "
+                f"(cumple_cupo_cantera/2). Un paquete chico suele fallar aquí aunque el cupo de extranjeros esté ok."
+            )
+        else:
+            notes.append("Cantera (reglas de liga): fallan (cumple_cupo_cantera/2).")
+
+    if evaluation.get("nacionalidad_ok"):
+        if lim_nac is not None:
+            notes.append(f"Límite misma nacionalidad: respeta el tope de {lim_nac} por país.")
+        else:
+            notes.append("Límite misma nacionalidad: sin tope definido.")
+    else:
+        notes.append(
+            f"Límite misma nacionalidad: fallan — algún país supera el máximo "
+            f"{lim_nac if lim_nac is not None else 'n/d'} (respeta_limite_nacionalidad/2)."
+        )
+
+    if evaluation.get("limite_edad_ok"):
+        notes.append("Límite de edad (reglas de liga): ok o sin restricción definida.")
+    else:
+        notes.append("Límite de edad (reglas de liga): fallan (respeta_limite_edad/2).")
+
+    if evaluation.get("valida"):
+        notes.append(f"Veredicto: la combinación es válida para {team} según combinacion_valida/2.")
+    else:
+        failed = []
+        if not evaluation.get("todos_pueden_firmar"):
+            failed.append("todos_pueden_firmar")
+        if not evaluation.get("presupuesto_ok"):
+            failed.append("cabe_en_presupuesto")
+        if not evaluation.get("cupo_ok"):
+            failed.append("respeta_cupo_extranjeros")
+        if not evaluation.get("liga_ok"):
+            failed.append("cumple_reglas_liga")
+        notes.append(
+            "Veredicto: combinación inválida porque fallan: "
+            + (", ".join(failed) if failed else "restricciones del modelo")
+            + "."
+        )
     return notes
 
 
@@ -573,6 +654,28 @@ def main() -> None:
                         ]
                         for label, ok in checks:
                             st.write(f"- {label}: {'✅' if ok else '❌'}")
+
+                        if not evaluation.get("liga_ok"):
+                            st.markdown("##### Desglose de reglas de liga")
+                            liga_checks = [
+                                ("Límite misma nacionalidad", evaluation.get("nacionalidad_ok")),
+                                ("Cupo mínimo de cantera", evaluation.get("cantera_ok")),
+                                ("Límite de edad", evaluation.get("limite_edad_ok")),
+                            ]
+                            for label, ok in liga_checks:
+                                st.write(f"- {label}: {'✅' if ok else '❌'}")
+
+                        if explain_mode:
+                            st.markdown("#### Explicación formal de la decisión")
+                            for line in build_combination_explanation(team, evaluation):
+                                st.write(f"- {line}")
+
+                        with st.expander("Detalle técnico (consulta Prolog)"):
+                            st.code(
+                                evaluation.get("consulta")
+                                or format_combination_query(team, selected_pack),
+                                language="prolog",
+                            )
 
                         if blocked_players:
                             st.warning(
